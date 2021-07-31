@@ -1,18 +1,18 @@
-import React, { Component } from 'react';
-import TextFileReader from './TextFileReader.js';
+import logo from './logo.svg';
+import './App.css';
+import { book } from './Book_1.js';
 
-class App extends Component {
-
-  constructor(props) {
-    super(props);
-  }
-
-  render = () => {
-    return (<div>
-      <TextFileReader txt={'~/Downloads/Book 1 - Patriarch Reliance.txt'} />
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          { book.title }
+        </p>
+      </header>
     </div>
-    )
-  }
+  );
 }
 
 export default App;
