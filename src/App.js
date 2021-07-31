@@ -1,15 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import { book } from './Book_1.js';
+import Reader from './Reader.js';
 
-function App() {
+function App(i) {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          { book.title }
-        </p>
+        <Reader />
       </header>
     </div>
   );
