@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { book } from './Book_1.js';
+import { book } from './Book.js';
 import moment from 'moment';
 
 const chapter = 8;
