@@ -8,18 +8,12 @@ function Reader() {
   const [time, setTime] = useState(moment());
   const [initialTime, setInitialTime] = useState(moment());
   let content = (
-<>
-          <p>
-            { words[Math.floor((time - initialTime) / 150)] }
-          </p>
-          <p>
-            { words[Math.floor((time - initialTime) / 150) + 1] }
-          </p>
-          <p>
-            { words[Math.floor((time - initialTime) / 150) + 2] }
-          </p>
-</>
-      );
+    <>
+      <p>
+        { words[Math.floor((time - initialTime) / 150)] }
+      </p>
+    </>
+  );
   useEffect(() => {
       const interval = setInterval(() => setTime(moment()), 5);
   }, []);
