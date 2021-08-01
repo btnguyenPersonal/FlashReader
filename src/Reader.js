@@ -2,15 +2,21 @@ import React, { useState, useEffect } from 'react';
 import { book } from './Book_1.js';
 import moment from 'moment';
 
-const words = book.content.split(' ');
+const chapter = 76;
+const speed = 150;
+
+const words = book.chapter[chapter - 1].content.split(/\s/);
 
 function Reader() {
   const [time, setTime] = useState(moment());
   const [initialTime, setInitialTime] = useState(moment());
   let content = (
     <>
+      <h5>
+        { book.chapter[chapter - 1].title }
+      </h5>
       <p>
-        { words[Math.floor((time - initialTime) / 150)] }
+        { words[Math.floor((time - initialTime) / speed)] }
       </p>
     </>
   );

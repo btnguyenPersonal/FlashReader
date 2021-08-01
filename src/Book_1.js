@@ -1,10 +1,12 @@
 export const book = {
 title:
-`I Shall Seal the Heavens`,
+`Book 1: Patriarch Reliance`,
 
-content: `Chapter 1: Scholar Meng Hao
+chapter: [
+{
+title: `Chapter 1: Scholar Meng Hao`,
 
-The State of Zhao was a very small nation [1. The State of Zhao is named after the historical State of Zhao]. Like other small nations in the lands of South Heaven, its people admired the Great Tang [2. The Great Tang is named after the historical Tang Dynasty] in the Eastern Lands, and they admired Chang'an [3. Chang'an is named after the historical Chinese city Chang'an]. Not only did the king carry this admiration, all scholars in the State of Zhao did. They could see it, almost as if they stood atop the Tower of Tang in the capital city, oh so far away.
+content: `The State of Zhao was a very small nation [1. The State of Zhao is named after the historical State of Zhao]. Like other small nations in the lands of South Heaven, its people admired the Great Tang [2. The Great Tang is named after the historical Tang Dynasty] in the Eastern Lands, and they admired Chang'an [3. Chang'an is named after the historical Chinese city Chang'an]. Not only did the king carry this admiration, all scholars in the State of Zhao did. They could see it, almost as if they stood atop the Tower of Tang in the capital city, oh so far away.
 
 This April was neither extremely cold, nor scorching hot. Light winds caressed the land, passing the Qiang Di flutes of the Northern Reaches, blowing over the lands of the Great Tang. Under the twilight sky, it lifted the fog-like dust, then swirling, twisting, reached Mount Daqing in the State of Zhao. Then it fell onto a young man who sat there on the mountaintop.
 
@@ -116,11 +118,13 @@ You and you, he said pointing at Wang and the clever young man. Follow me to the
 
 What is this place? Wang asked, his voice and body both shaking as the Immortal pointed at him.
 
-The Reliance Sect.
+The Reliance Sect.`
+},
+{
 
-Chapter 2: The Reliance Sect
+title: `Chapter 2: The Reliance Sect`,
 
-The Reliance Sect, located within the borders of the State of Zhao, on the southern edge of the lands of South Heaven, was once first among the Four Great Sects. Even though it was still famous in the Southern Domain, it had experienced a decline in recent years and did not maintain the glorious position it once had. Nowadays, compared to the other Sects within the State of Zhao, it could only be considered inferior.
+content: `The Reliance Sect, located within the borders of the State of Zhao, on the southern edge of the lands of South Heaven, was once first among the Four Great Sects. Even though it was still famous in the Southern Domain, it had experienced a decline in recent years and did not maintain the glorious position it once had. Nowadays, compared to the other Sects within the State of Zhao, it could only be considered inferior.
 
 Actually, it hadn't always been called the Reliance Sect. But a thousand years ago, a Cultivator appeared who caused a great sensation in the Southern Domain. He'd called himself Patriarch Reliance, and had forced the Sect to change its name as such. He'd trod roughshod over all the other Sects in the State of Zhao, plundering their treasures, remaining unrivaled for some time.
 
@@ -204,11 +208,13 @@ Meng Hao watched him for a bit, just to confirm that he had been sleepwalking ju
 
 The ninth level of Qi Condensation is the path to being an Immortal. Working for them, I have a chance to become an Immortal myself. That is the biggest payment possible. If I become an Immortal, I must have a chance to become rich. Meng Hao gripped the manual, his eyes shining brightly. He had finally found another path besides studying for the exams.
 
-At that moment, the door was kicked open with a bang, and a loud harumph sounded out.
+At that moment, the door was kicked open with a bang, and a loud harumph sounded out.`
+},
+{
 
-Chapter 3: Promotion to the Outer Sect
+title: `Chapter 3: Promotion to the Outer Sect`,
 
-You went to sleep early. Now it's time to wake up for Grandpa Tiger! The door shook as it opened, and a tall, strong man entered wearing servants' robes. He glared fiercely at Meng Hao and the fat teenager.
+content: `You went to sleep early. Now it's time to wake up for Grandpa Tiger! The door shook as it opened, and a tall, strong man entered wearing servants' robes. He glared fiercely at Meng Hao and the fat teenager.
 
 Starting today, he said angrily, you two little bastards will chop ten trees per day for me, each. Otherwise, Grandpa Tiger will flay you alive.
 
@@ -372,11 +378,13 @@ Go look at it later, said the shrewd-looking man coldly. The Treasure Pavilion i
 
 Meng Hao lifted his head and stuffed the bag of holding into his robe. Looking at the opened door of the Treasure Pavilion, he sucked in a deep breath and stepped in, filled with anticipation.
 
-As soon as he entered, his expression changed, and he sucked in a breath.
+As soon as he entered, his expression changed, and he sucked in a breath.`
+},
+{
 
-Chapter 4: A Copper Mirror
+title: `Chapter 4: A Copper Mirror`,
 
-The Treasure Pavilion was indeed filled with treasure. Upon entering it, one's eye would be dazzled with brilliant lights. Neatly arranged jade shelves were filled with a dazzling display of bottles, swords, ornaments and jewelry. Meng Hao began breathing heavily, and his heart started pumping. It felt as if all the blood in his body had rushed to his brain. He stood there, dumbfounded.
+content: `The Treasure Pavilion was indeed filled with treasure. Upon entering it, one's eye would be dazzled with brilliant lights. Neatly arranged jade shelves were filled with a dazzling display of bottles, swords, ornaments and jewelry. Meng Hao began breathing heavily, and his heart started pumping. It felt as if all the blood in his body had rushed to his brain. He stood there, dumbfounded.
 
 In Meng Hao's short life, he had never seen so much wealth. He felt as if it had submerged him. His brain spun, and he inadvertently thought about grabbing all of it and running away.
 
@@ -468,11 +476,13 @@ Over a hundred Outer Sect disciples stood there in their green robes, murmuring 
 
 Then, the cloud slowly dissipated, revealing a pock-faced old man wearing a golden robe. His face was placid and emitted a calm, natural power and dignity. His eyes shone like lightning. Two people stood next to him, a man and a woman, both wearing silver robes. The man was exceedingly handsome, with an upright appearance, although indifference covered his face. As for the woman, as soon as Meng Hao laid eyes on her, his pupils constricted.
 
-This woman was the woman who had taken him from Daqing Mountain three months ago.
+This woman was the woman who had taken him from Daqing Mountain three months ago.`
+},
+{
 
-Chapter 5: This Kid isn't Bad
+title: `Chapter 5: This Kid isn't Bad`,
 
-It turns out Master Uncle Shangguan is distributing the pills himself, along with Inner Sect disciples Elder Sister Xu and Elder Brother Chen. They all came. You don't see this very often. Don't tell me there's an Individual Pill Distribution this time?
+content: `It turns out Master Uncle Shangguan is distributing the pills himself, along with Inner Sect disciples Elder Sister Xu and Elder Brother Chen. They all came. You don't see this very often. Don't tell me there's an Individual Pill Distribution this time?
 
 It must be. Look, Elder Brother Han Zong [1. Han Zong's name in Chinese is ?? (hán zong) - Han is a common family name. Zong means "Sect" or "religion"] is here. He's the second-ranked disciple in the Outer Sect. His Cultivation base has reached the fifth level of Qi Condensation. If he can reach the seventh level, then he will automatically become an Inner Sect disciple. Too bad Elder Brother Wang Tengfei [2. Wang Tengfei's name in Chinese is ??? (wáng téng fei) – Wang is a common family name. Tengfei means to soar"] isn't here.
 
@@ -580,11 +590,13 @@ Dammit, I wish I had thought of this back then.
 
 Just then, back atop the mountain peaks outside the Outer Sect were the two gray-robed old men who had been betting on the proceedings. Tall and grand, their eyes glittered brightly with praise. They laughed heartily.
 
-This kid is pretty interesting. He just entered the Sect, but already knows that he should find someone to rely on. Don't tell me he has innate instincts Very good, splendid. He comprehends the true meaning of the Reliance Sect. This kid isn't bad. He really isn't bad!
+This kid is pretty interesting. He just entered the Sect, but already knows that he should find someone to rely on. Don't tell me he has innate instincts Very good, splendid. He comprehends the true meaning of the Reliance Sect. This kid isn't bad. He really isn't bad!`
+},
+{
 
-Chapter 6: The Delights of the Copper Mirror
+title: `Chapter 6: The Delights of the Copper Mirror`,
 
-Elder Sister Xu was quite well known in the Reliance Sect. In fact, you could say that everyone knew her, because as of now, the Reliance Inner Sect only had two disciples.
+content: `Elder Sister Xu was quite well known in the Reliance Sect. In fact, you could say that everyone knew her, because as of now, the Reliance Inner Sect only had two disciples.
 
 Other than Elder Sister Xu, the only other disciple was the man currently standing next to Shangguan Xiu.
 
@@ -670,11 +682,13 @@ Looking at the dead deer, then back at the mirror, an unprecedented look of exci
 
 What a treasure! A real treasure!!
 
-It's so strange. A treasure that explodes the butts of wild animals Even though he didn't understand it completely, he was still very excited. Regardless of why the treasure did this, he had an itching desire to go test it out on some more animals.
+It's so strange. A treasure that explodes the butts of wild animals Even though he didn't understand it completely, he was still very excited. Regardless of why the treasure did this, he had an itching desire to go test it out on some more animals.`
+},
+{
 
-Chapter 7: I Need Spirit Stones!
+title: `Chapter 7: I Need Spirit Stones!`,
 
-As he walked, he grew more and more excited. The road he walked was filled with blood and gore
+content: `As he walked, he grew more and more excited. The road he walked was filled with blood and gore
 
 The blood and gore of scores of wild animals, whose butts had exploded violently.
 
@@ -758,11 +772,13 @@ Unfortunately, the Reliance Sect was a small Sect. Other than the monthly Pill D
 
 There's one month until the next Pill Distribution Day. Meng Hao looked at the copper mirror, and his expression grew ferocious. Moments later, the ferocity disappeared, hidden away. Right now, his Cultivation base was only at the second level of Qi Condensation. Even if he wanted to take something by force, he wouldn't be a match for anyone.
 
-Back in Yunjie County, I had no money, said Meng Hao helplessly. Now I'm an Immortal, and I still have no money. In his mind, he pondered how he could get his hands on more Spirit Stones.
+Back in Yunjie County, I had no money, said Meng Hao helplessly. Now I'm an Immortal, and I still have no money. In his mind, he pondered how he could get his hands on more Spirit Stones.`
+},
+{
 
-Chapter 8: Zhao Wugang
+title: `Chapter 8: Zhao Wugang`,
 
-"It's only one more month, but during that month, I must fight to increase my Cultivation base one step further." He carefully put the copper mirror back into the bag of holding. He knew that he could not let anyone know of its abilities. If he did, it would be difficult for him to keep ahold of it, and he would surely lose his life in the process.
+content: `"It's only one more month, but during that month, I must fight to increase my Cultivation base one step further." He carefully put the copper mirror back into the bag of holding. He knew that he could not let anyone know of its abilities. If he did, it would be difficult for him to keep ahold of it, and he would surely lose his life in the process.
 
 He looked down at himself, and the filth that covered him. In his excitement, he had almost forgotten about his dirty state. But now, he had calmed down quite a bit. He walked out of the Immortal's cave to the nearby stream and washed off the grime and impurities.
 
@@ -878,11 +894,13 @@ It was a skill which could be cultivated after reaching the second level of Qi C
 
 Now that his Cultivation base had reached the third level of Qi Condensation, the skill was even more fully developed. Being able to grow such thick, golden fur was a pleasant surprise. Being able to shapeshift into a demonic form like this would enable him to easily shock his opponents. He brimmed with confidence, his thick, golden fur shining brightly, mighty and domineering. Fur even grew from his face. He looked exactly like a human-shaped demonic beast.
 
-"You will be the first person to die under my Were-demon skill! How just and fair!
+"You will be the first person to die under my Were-demon skill! How just and fair!`
+},
+{
 
-Chapter 9: Impatience and Frustration
+title: `Chapter 9: Impatience and Frustration`,
 
-Using this technique at the third level allowed Zhao Wugang to increase his strength by several degrees, as well as his speed. Grinning hideously, face full of greed, he charged toward Meng Hao, sharp claws glittering in the sunlight.
+content: `Using this technique at the third level allowed Zhao Wugang to increase his strength by several degrees, as well as his speed. Grinning hideously, face full of greed, he charged toward Meng Hao, sharp claws glittering in the sunlight.
 
 He brimmed with confidence, certain that Meng Hao's fear would break him. Flee he might, but escape he could not.
 
@@ -996,11 +1014,13 @@ Considering the shocking level of power, Meng Hao knew that compared to yesterda
 
 He waved his right hand excitedly and a Flame Serpent as long as his arm roared to life. Its heat immediately filled the Immortal's Cave. The fierce Flame Serpent, filled with awe-inspiring savagery, spit out a blast of fire.
 
-If he had encountered Zhao Wugang with this level of power, his Flame Serpent would have flown forth. It would at the very least have seriously injured him, if not left him dead.
+If he had encountered Zhao Wugang with this level of power, his Flame Serpent would have flown forth. It would at the very least have seriously injured him, if not left him dead.`
+},
+{
 
-Chapter 10: Wang Tengfei
+title: `Chapter 10: Wang Tengfei`,
 
-Toward the end of September, it grew as hot as usual. The heat refused to dissipate, instead growing more and more intense. In the lands of South Heaven, things usually began to cool by around the eleventh month of the year in the Southern Domain in the State of Zhao. By the first month of the following year, the freezing grip of winter could be felt.
+content: `Toward the end of September, it grew as hot as usual. The heat refused to dissipate, instead growing more and more intense. In the lands of South Heaven, things usually began to cool by around the eleventh month of the year in the Southern Domain in the State of Zhao. By the first month of the following year, the freezing grip of winter could be felt.
 
 One morning at dawn, Meng Hao left the Immortal's Cave, eyes shining, full of hope regarding the future.
 
@@ -1110,11 +1130,13 @@ As he watched, someone rushed down the mountain, screaming, followed by a huge m
 
 Help me!
 
-Who can save you from Cao?!
+Who can save you from Cao?!`
+},
+{
 
-Chapter 11: Pill Cultivation Workshop Outlet
+title: `Chapter 11: Pill Cultivation Workshop Outlet`,
 
-Not too far ahead of him, Meng Hao saw someone screaming for help. Before the person could get off of the plateau, the huge man's flying sword hit him, piercing his neck. He fell twitching to the ground in a shower of blood, rattled out a last breath, then died. The huge man grabbed his victim's bag of holding, then turned and headed back into the Public Zone.
+content: `Not too far ahead of him, Meng Hao saw someone screaming for help. Before the person could get off of the plateau, the huge man's flying sword hit him, piercing his neck. He fell twitching to the ground in a shower of blood, rattled out a last breath, then died. The huge man grabbed his victim's bag of holding, then turned and headed back into the Public Zone.
 
 Meng Hao watched the grisly scene unfold, then further observed what was happening on the plateau. The sounds of slaughter drifted along with the wind, which carried the scent of blood and gore into Meng Hao's nostrils.
 
@@ -1222,11 +1244,13 @@ Meng Hao snatched his bag of holding, and then his somber, stern expression chan
 
 Brother, I believe you just offered me six Spirit Stones, he said shyly, looking a bit embarrassed.
 
-The other Cultivator's face paled, and his body trembled. He stared at Meng Hao with astonishment and terror. How could he ever have imagined that things would turn out this way? How could this apparently weak and feeble person have changed so much? It was almost as if what he had just witnessed was a dream.
+The other Cultivator's face paled, and his body trembled. He stared at Meng Hao with astonishment and terror. How could he ever have imagined that things would turn out this way? How could this apparently weak and feeble person have changed so much? It was almost as if what he had just witnessed was a dream.`
+},
+{
 
-Chapter 12: Hello, Elder Sister Xu
+title: `Chapter 12: Hello, Elder Sister Xu`,
 
-The scene, which had attracted the attention of the other nearby Cultivators, caused their expressions to change. Many seemed to be at a loss, unsure of exactly what had happened. But now, they all knew that Meng Hao was not someone to provoke.
+content: `The scene, which had attracted the attention of the other nearby Cultivators, caused their expressions to change. Many seemed to be at a loss, unsure of exactly what had happened. But now, they all knew that Meng Hao was not someone to provoke.
 
 Even though they didn't know exactly what had happened, Meng Hao's trembling first customer did. His heart pounding madly, he slapped his bag of holding and produced six Spirit Stones, which he respectfully handed over. He regretted having hesitated in front of the Pill Cultivation Workshop in the past. By fretting over his Spirit Stones at that time, he'd ended up with no medicine. And now, he didn't have any Spirit Stones to go buy anything for himself.
 
@@ -1338,11 +1362,13 @@ The moon shone down gently on the two of them as they walked.
 
 Just then, at the peak of the North Mountain, a tall old man stood up, clad in a gray robe. As he looked down on the scene, a look of admiration appeared on his face.
 
-Excellent. This pup Meng Hao isn't bad at all. He truly grasps the correct interpretation of the Reliance Sect. He knows how to find someone to rely on. And he also knows that if he protects his relationship with that person, then he will always have someone to rely on. This was the same old man who had expressed admiration for Meng Hao on Pill Distribution day. The more he learned about Meng Hao, the more he liked him.
+Excellent. This pup Meng Hao isn't bad at all. He truly grasps the correct interpretation of the Reliance Sect. He knows how to find someone to rely on. And he also knows that if he protects his relationship with that person, then he will always have someone to rely on. This was the same old man who had expressed admiration for Meng Hao on Pill Distribution day. The more he learned about Meng Hao, the more he liked him.`
+},
+{
 
-Chapter 13: Manly Cao Yang
+title: `Chapter 13: Manly Cao Yang`,
 
-Elder Sister Xu was like a tiger pelt, which, when worn while strolling about the Outer Sect, would immediately attract attention. When the Outer Sect disciples saw Elder Sister Xu walking with Meng Hao, strange expressions filled their faces. This was especially true for those who had bought medicines from Meng Hao earlier that day. Hatred blossomed, and then was held back.
+content: `Elder Sister Xu was like a tiger pelt, which, when worn while strolling about the Outer Sect, would immediately attract attention. When the Outer Sect disciples saw Elder Sister Xu walking with Meng Hao, strange expressions filled their faces. This was especially true for those who had bought medicines from Meng Hao earlier that day. Hatred blossomed, and then was held back.
 
 As for those with higher level Cultivation bases, they didn't know what had happened on the plateau, but they still recognized Meng Hao, and conjectured that he was not someone to be trifled with.
 
@@ -1440,11 +1466,13 @@ His manly body trembled, and he stared fearfully at Meng Hao. Looking at him, Ca
 
 As of now, he was just like the Cultivator from yesterday.
 
-Brother, looking at your current state, I think one medicinal pill will only help you temporarily. He gripped Cao Yang by the shoulders. He seemed to stop in consideration for a moment. You have a lot of enemies. Why don't you buy some more?
+Brother, looking at your current state, I think one medicinal pill will only help you temporarily. He gripped Cao Yang by the shoulders. He seemed to stop in consideration for a moment. You have a lot of enemies. Why don't you buy some more?`
+},
+{
 
-Chapter 14: Threats
+title: `Chapter 14: Threats`,
 
-Upon hearing this, Cao Yang's body went stiff. It wasn't just him. Everyone backed up, looking at Meng Hao in dread.
+content: `Upon hearing this, Cao Yang's body went stiff. It wasn't just him. Everyone backed up, looking at Meng Hao in dread.
 
 Buy buy some more? said Cao Yang, shaking, his voice weak. Were it not for Meng Hao holding him up, he would have toppled over.
 
@@ -1580,11 +1608,13 @@ There were some other magical items which he had procured. He heaved a deep sigh
 
 After entering the sect and beginning my Cultivation practice, I had no choice but to rob some people to improve my Cultivation base. But I don't want to hurt too many people. Thus, I came up with the idea of running a business. But now my business has been stolen away, and I've been threatened with crippling That is pushing things too far!
 
-When dawn broke, Meng Hao opened his eyes and left the Immortal's cave. He washed, then headed straight for the plateau.
+When dawn broke, Meng Hao opened his eyes and left the Immortal's cave. He washed, then headed straight for the plateau.`
+},
+{
 
-Chapter 15: Decisive Attack
+title: `Chapter 15: Decisive Attack`,
 
-Dawn. The plateau. Considering the months of Meng Hao's hawking, and days of Lu Gong's domineering, there were few Cultivators present, especially this early in the morning. There were only two or three, sitting there cross-legged.
+content: `Dawn. The plateau. Considering the months of Meng Hao's hawking, and days of Lu Gong's domineering, there were few Cultivators present, especially this early in the morning. There were only two or three, sitting there cross-legged.
 
 When Meng Hao arrived, they opened their eyes, and each of them sighed inwardly, wondering when things would return to the way they had been before.
 
@@ -1694,11 +1724,13 @@ The Sect rules state that if you take something into your hand, it is yours, sai
 
 This isn't the Public Zone, said Lu Hong, his eyes filled with despair and fear. Raising his voice so everyone could hear, he said, If you dare to kill me, it will be a violation of sect rules!
 
-I, Meng Hao, will not violate Sect rules. However, you said yesterday that you would cripple my Cultivation base. So today, I will do the same to you. Looking completely calm, he raised his hand and sent a flying sword piercing into the Qi passages of Lu Hong's dantian, smashing his Cultivation base. Then he stood there amidst Lu Hong's miserable screams, casting fear and awe across the entire plateau.
+I, Meng Hao, will not violate Sect rules. However, you said yesterday that you would cripple my Cultivation base. So today, I will do the same to you. Looking completely calm, he raised his hand and sent a flying sword piercing into the Qi passages of Lu Hong's dantian, smashing his Cultivation base. Then he stood there amidst Lu Hong's miserable screams, casting fear and awe across the entire plateau.`
+},
+{
 
-Chapter 16: Come here!
+title: `Chapter 16: Come here!`,
 
-The faces of the surrounding Cultivators grew pale. Meng Hao's attack was both decisive and also filled with a ferocious hatred that he himself didn't even notice. This sort of thing was actually becoming a trend.
+content: `The faces of the surrounding Cultivators grew pale. Meng Hao's attack was both decisive and also filled with a ferocious hatred that he himself didn't even notice. This sort of thing was actually becoming a trend.
 
 In the eyes of the onlookers, Meng Hao was now the number one person of the plateau. Perhaps in the entire Outer Sect, he was now one of the highest figures.
 
@@ -1812,11 +1844,13 @@ When everything concluded, and the dragon-carved pillars grew dark, Wang Tengfei
 
 Come here!
 
-It was a simple sentence, but the instant it rang out, everyone looked at Wang Tengfei, watching as his gaze fell onto Meng Hao.
+It was a simple sentence, but the instant it rang out, everyone looked at Wang Tengfei, watching as his gaze fell onto Meng Hao.`
+},
+{
 
-Chapter 17: I shall rely on myself!
+title: `Chapter 17: I shall rely on myself!`,
 
-Meng Hao stood there stiffly, staring at Wang Tengfei. He could suddenly feel the gaze of all the disciples who stood in the square. The Cultivators standing next to him moved away, creating an open area around Meng Hao.
+content: `Meng Hao stood there stiffly, staring at Wang Tengfei. He could suddenly feel the gaze of all the disciples who stood in the square. The Cultivators standing next to him moved away, creating an open area around Meng Hao.
 
 A feeling of aloneness filled his heart, as if the world itself were about to forsake him. It was as if Wang Tengfei's single utterance had pushed him over the edge of existence.
 
@@ -1906,11 +1940,13 @@ He looked down at the ten bloody fingernails. After a while, he collected them t
 
 The day would come when that humiliation would be repaid in double!
 
-He hadn't spoken for a long time, but now he opened his mouth: As for me, I shall rely on myself! The hoarse voice almost didn't sound like his own.
+He hadn't spoken for a long time, but now he opened his mouth: As for me, I shall rely on myself! The hoarse voice almost didn't sound like his own.`
+},
+{
 
-Chapter 18: Fatty of the Outer Sect
+title: `Chapter 18: Fatty of the Outer Sect`,
 
-Time flashed by. Meng Hao didn't even take half a step outside of the Immortal's Cave. He didn't want to go out and didn't want to see anyone. He could never forget how Wang Tengfei had turned the whole world against him. He sat cross-legged, staring at the fingernails, encrusted with dried blood. His previous numbed expression changed into wrath, then somberness. Finally one day, the main door of the Immortal's cave creaked open, and moonlight poured in.
+content: `Time flashed by. Meng Hao didn't even take half a step outside of the Immortal's Cave. He didn't want to go out and didn't want to see anyone. He could never forget how Wang Tengfei had turned the whole world against him. He sat cross-legged, staring at the fingernails, encrusted with dried blood. His previous numbed expression changed into wrath, then somberness. Finally one day, the main door of the Immortal's cave creaked open, and moonlight poured in.
 
 Elder Sister Xu stood there in the doorway, wreathed in moonlight which obscured her features.
 
@@ -2002,11 +2038,13 @@ Soon, he added magic items to his offerings, and business grew even more. But no
 
 One day, when winter had fallen and snowflakes filled the air, Meng Hao sat cross-legged at the edge of the plateau, meditating. Suddenly, Fatty let out a yelp and grabbed a person, dragging him toward Meng Hao.
 
-Meng Hao, Meng Hao, look who it is!
+Meng Hao, Meng Hao, look who it is!`
+},
+{
 
-Chapter 19: The Wind Stirs Again
+title: `Chapter 19: The Wind Stirs Again`,
 
-Meng Hao opened his eyes and saw Fatty excitedly dragging over a young man. Short, sallow and emaciated, he made quite the contrast to pale, plump Fatty.
+content: `Meng Hao opened his eyes and saw Fatty excitedly dragging over a young man. Short, sallow and emaciated, he made quite the contrast to pale, plump Fatty.
 
 Meng Hao recognized him. He was one of the members of the group who had been brought to the Reliance Sect that day and taken along with Wang Youcai to a Servants' Quarters on a different Mountain.
 
@@ -2114,11 +2152,13 @@ He looked as round as a ball, and anyone who for the first time caught sight of 
 
 Never mind, he said. I'm going to give the pill to you. He waved his right hand, and a purple light flickered as the Dry Spirit Pill shot toward Fatty. With a look of shock, he instinctively caught it, looking as if he didn't even know what had just happened. Then, his expression changed and he let out a yelp. His body began to tremble as the blood drained from his face. He looked like he was about to cry.
 
-This Me Crap, why did it have to be me?
+This Me Crap, why did it have to be me?`
+},
+{
 
-Chapter 20: Entering the Black Mountain
+title: `Chapter 20: Entering the Black Mountain`,
 
-In a split second, everyone in the entire square suddenly began to stare at Fatty, making him feel as if a cold wind were creeping down his back. His body quivered, and he looked pitifully at Meng Hao, a weak smile on his face.
+content: `In a split second, everyone in the entire square suddenly began to stare at Fatty, making him feel as if a cold wind were creeping down his back. His body quivered, and he looked pitifully at Meng Hao, a weak smile on his face.
 
 Meng Hao, save me He wanted to throw the pill away, but for some reason it wouldn't leave his hand. He was so frightened that as people began to surround them, his teeth chattered.
 
@@ -2212,11 +2252,13 @@ When he caught sight of the mountain, his eyes gleamed. He had expended a lot of
 
 The two pursuing Cultivators followed him in.
 
-Some more time passed and more pursuers appeared, one by one. Upon seeing the black mountain, they gaped in astonishment, then entered.
+Some more time passed and more pursuers appeared, one by one. Upon seeing the black mountain, they gaped in astonishment, then entered.`
+},
+{
 
-Chapter 21: Meng Hao, You're Shameless!
+title: `Chapter 21: Meng Hao, You're Shameless!`,
 
-The black mountain was not bare, but rather covered with a lush forest of trees that stretched up toward the heavens. The reason this place was called a black mountain was because all the trees were completely black, and it seemed to be filled with swirling Demonic energy.
+content: `The black mountain was not bare, but rather covered with a lush forest of trees that stretched up toward the heavens. The reason this place was called a black mountain was because all the trees were completely black, and it seemed to be filled with swirling Demonic energy.
 
 It was completely different from any of the other mountains as far as the eye could see.
 
@@ -2306,11 +2348,13 @@ Meng Hao, you can't escape!
 
 Hand over the Dry Spirit Pill to me. I can let you die with your corpse intact. Otherwise I'll leave you here for the beasts, and nothing will remain of you.
 
-Even as their voices echoed off into the distance, the two Cultivators' bodies flashed like rainbows as they charged towards Meng Hao. Determination filled Meng Hao's eyes and he fled onward. It appeared that up ahead was the resting place of some Demonic beasts.
+Even as their voices echoed off into the distance, the two Cultivators' bodies flashed like rainbows as they charged towards Meng Hao. Determination filled Meng Hao's eyes and he fled onward. It appeared that up ahead was the resting place of some Demonic beasts.`
+},
+{
 
-Chapter 22: A Sword Resting in Demonic Python Skin
+title: `Chapter 22: A Sword Resting in Demonic Python Skin`,
 
-Not much time had passed. It seemed as if the entire black mountain were seething. The roars of Demonic beasts shook the air, rising and falling one after another. Even more frequent were the miserable shrieks which sounded out. The ten or more Cultivators who had dared not further their pursuit into the mountain looked pale. Fear filled their hearts, and now they were even less willing to enter the mountain than before.
+content: `Not much time had passed. It seemed as if the entire black mountain were seething. The roars of Demonic beasts shook the air, rising and falling one after another. Even more frequent were the miserable shrieks which sounded out. The ten or more Cultivators who had dared not further their pursuit into the mountain looked pale. Fear filled their hearts, and now they were even less willing to enter the mountain than before.
 
 What happened? How come it seems like all the Demonic beasts in the whole mountain are in a rage?
 
@@ -2390,11 +2434,13 @@ He clenched his jaw, then popped one of the pills into his mouth.
 
 Fifth level of Qi Condensation! I have to reach the fifth level! His eyes grew bloodshot, filled with resilient determination. He sat in meditation and began to rotate his Cultivation base. Booming sounds resounded through his body as boundless spiritual energy erupted out of the Dry Spirit Pill, causing the spiritual forces in Meng Hao's body to turn into a spinning vortex which suddenly spread outward in all directions.
 
-Time went by slowly, and days passed. When Meng Hao, his eyes closed, broke through the fifth level of Qi Condensation, the black mountain was filled with the roars of the python. Its transformation, like Meng Hao's, seemed also to have reached a critical juncture.
+Time went by slowly, and days passed. When Meng Hao, his eyes closed, broke through the fifth level of Qi Condensation, the black mountain was filled with the roars of the python. Its transformation, like Meng Hao's, seemed also to have reached a critical juncture.`
+},
+{
 
-Chapter 23: An Ancient Beast!
+title: `Chapter 23: An Ancient Beast!`,
 
-As Meng Hao sat in secluded meditation in the small mountain fissure, rumors about what had happened regarding the Dry Spirit Pill began to ripple out. This was especially true when Zhou and Yin returned. Many people saw them, but of course none dared to ask about who had ended up with the Dry Spirit Pill.
+content: `As Meng Hao sat in secluded meditation in the small mountain fissure, rumors about what had happened regarding the Dry Spirit Pill began to ripple out. This was especially true when Zhou and Yin returned. Many people saw them, but of course none dared to ask about who had ended up with the Dry Spirit Pill.
 
 Because Meng Hao didn't appear, rumors began to spread that he had died.
 
@@ -2496,11 +2542,13 @@ Blood boiling, Meng Hao suddenly had the feeling that his destiny was thick in t
 
 I've struck it rich! This time, I've really freaking struck it rich!
 
-Meng Hao had only been inside the cave for the space of about ten breaths, and in ten more, he was gone from the mountain. The moment his shadow disappeared, a shape began to descend from the silver fog that hung in the sky. It was a person wearing a white robe; Wang Tengfei. With a flick of his sleeve, he floated down slowly. He looked around for a moment, then sped toward the cave.
+Meng Hao had only been inside the cave for the space of about ten breaths, and in ten more, he was gone from the mountain. The moment his shadow disappeared, a shape began to descend from the silver fog that hung in the sky. It was a person wearing a white robe; Wang Tengfei. With a flick of his sleeve, he floated down slowly. He looked around for a moment, then sped toward the cave.`
+},
+{
 
-Chapter 24: Who was it?!
+title: `Chapter 24: Who was it?!`,
 
-Wang Tengfei looked so excited that if anyone could have seen him, they would have been shocked. No one had ever seen such an expression appear on his face.
+content: `Wang Tengfei looked so excited that if anyone could have seen him, they would have been shocked. No one had ever seen such an expression appear on his face.
 
 To other people, Wang Tengfei was a Chosen, with a mild expression, amiable smile, and beautiful appearance, perfect in every way.
 
@@ -2576,11 +2624,13 @@ It was a good thing the withered Demonic Core had a tough outer crust. The coppe
 
 After taking another deep breath, he pulled out the third of his acquisitions, the small, primitive-looking sword. Holding in front of him, he smiled.
 
-This sword is incredibly sharp. It could stab into the Demonic python, and was even able to split that giant demon's head open. It's definitely something special. He looked at the small sword in his hand. It was made not of gold or iron, but wood. On its surface were some faint lines of gold that seemed to have some sort of magical properties. Even though it seemed primitive, even just thinking about the wooden flying sword and its incredible sharpness made Meng Hao incredibly excited.
+This sword is incredibly sharp. It could stab into the Demonic python, and was even able to split that giant demon's head open. It's definitely something special. He looked at the small sword in his hand. It was made not of gold or iron, but wood. On its surface were some faint lines of gold that seemed to have some sort of magical properties. Even though it seemed primitive, even just thinking about the wooden flying sword and its incredible sharpness made Meng Hao incredibly excited.`
+},
+{
 
-Chapter 25: Sovereign of the Sky
+title: `Chapter 25: Sovereign of the Sky`,
 
-This treasure must have a special history. Meng Hao swung the wooden sword, then stabbed it into the ground. It went in easily. Smiling, Meng Hao pulled it out, even happier than before.
+content: `This treasure must have a special history. Meng Hao swung the wooden sword, then stabbed it into the ground. It went in easily. Smiling, Meng Hao pulled it out, even happier than before.
 
 Suddenly, he lifted his head, looking surprised. He sensed that the spiritual energy in the Immortal's Cave was suddenly thinner than before. Actually, it seemed to have completely disappeared.
 
@@ -2664,11 +2714,13 @@ I am the Flying Rain-Dragon of ancient times! It filled his mind, filled the wor
 
 At that exact moment, on the East Mountain of the Reliance Sect, in his Immortal's Cave, Wang Tengfei's face grew dark. The fury in his heart nearly made him go mad. He had tasted failure, and was having a hard time accepting it. No matter how many times he tried to use the Blood Drop to sense the Legacy or his opponent, nothing happened. He didn't know what was happening.
 
-Did you find it? said Wang Tengfei, suppressing the fury in his heart as he lifted his head to look at the young man standing in front of him. It was the other young man who had accompanied him that day in addition to Shangguan Song.
+Did you find it? said Wang Tengfei, suppressing the fury in his heart as he lifted his head to look at the young man standing in front of him. It was the other young man who had accompanied him that day in addition to Shangguan Song.`
+},
+{
 
-Chapter 26: Bewilderment
+title: `Chapter 26: Bewilderment`,
 
-Elder Brother Wang, I secretly checked around and asked quite a few disciples throughout the Sect. I don't think I left anything out. This young man was also famous in the Reliance Sect, but in front of Wang Tengfei, he was completely respectful. He had never seen Wang Tengfei like this, and was a bit hesitant. He had begun speaking with a respectful bow. I even looked around in the Servants' Quarters and followed up on Zhou Kai, Han Zong and some others. At that time, there were thirty-seven people who weren't present in the Sect. Of those thirty-seven people, I eliminated twenty-nine as suspects. Among the rest, there are six of whom there is no evidence to suggest they were at the black mountain. Only two were definitely there. Meng Hao and Han Zong.
+content: `Elder Brother Wang, I secretly checked around and asked quite a few disciples throughout the Sect. I don't think I left anything out. This young man was also famous in the Reliance Sect, but in front of Wang Tengfei, he was completely respectful. He had never seen Wang Tengfei like this, and was a bit hesitant. He had begun speaking with a respectful bow. I even looked around in the Servants' Quarters and followed up on Zhou Kai, Han Zong and some others. At that time, there were thirty-seven people who weren't present in the Sect. Of those thirty-seven people, I eliminated twenty-nine as suspects. Among the rest, there are six of whom there is no evidence to suggest they were at the black mountain. Only two were definitely there. Meng Hao and Han Zong.
 
 Wang Tengfei looked more and more angry. He raises his hard eyes, which caused the young man's heart to grow cold. He nervously lowered his head.
 
@@ -2753,11 +2805,13 @@ Upon hearing this, a strange expression appeared on Meng Hao's face. He opened h
 As soon as he stepped out, Fatty's loud wails suddenly ceased, and he looked up in astonishment. He straightened, his eyes filled with fear. Then he recognized Meng Hao, and he leaped up, gaping.
 
 Meng Hao looked at Fatty with a strange expression, then gave a light cough and walked over to the nearby stream and began to clean himself off. He had never been so dirty in his entire life. After cleaning off, he put on a fresh green robe, then used a flying sword to trim his hair. Now he felt, and looked, like his old self. He turned and smiled at Fatty.
+`
+},
+{
 
+title: `Chapter 27: The Wind Stirs Again`,
 
-Chapter 27: The Wind Stirs Again
-
-Fatty stared at Meng Hao, tears streaming down his face. He rushed forward, bawling.
+content: `Fatty stared at Meng Hao, tears streaming down his face. He rushed forward, bawling.
 
 You're not dead. Meng Hao, you're not dead! cried Fatty as he hugged Meng Hao. I was so scared these past few days. Everyone said that you had died, and I was so sad. You're my only friend. What would I do if you died?
 
@@ -2835,11 +2889,13 @@ Soon they came to a stop in front of a three-story building. Han Zong looked at 
 
 Come in, Meng Hao. Han Zong, you head to the South Mountain. A jade slip suddenly flew out into Han Zong's hand. He looked at Meng Hao with a cold laugh, then turned and left.
 
-Meng Hao's heart began to thump. This didn't seem right. Shangguan Xiu gave Han Zong a jade slip and sent him to the South Mountain
+Meng Hao's heart began to thump. This didn't seem right. Shangguan Xiu gave Han Zong a jade slip and sent him to the South Mountain`
+},
+{
 
-Chapter 28: Shangguan Xiu
+title: `Chapter 28: Shangguan Xiu`,
 
-Time did not permit Meng Hao to spend time thinking. The door to the building swung open silently. Inside was pitch black and emanated a sinister air.
+content: `Time did not permit Meng Hao to spend time thinking. The door to the building swung open silently. Inside was pitch black and emanated a sinister air.
 
 You still haven't entered, said Shangguan Xiu, his voice cold. Meng Hao hesitated, then, eyes flickering dimly, realised that he couldn't retreat. After thinking about it for a moment, his nervousness grew. He stepped forward into the building.
 
@@ -2947,11 +3003,13 @@ He waved his right hand again, and eight jade slips flew out, toward each of the
 
 Forfeiting before a battle is prohibited, said Grand Elder Ouyang coolly. In the competition for promotion to the Inner Sect, life and death are predestined. If, after stepping onto the platform, you feel you cannot win, you may admit defeat. First match, numbers one and eight. Wang Tengfei opened his eyes, and raised up his jade slip, upon which was written 'one.' He stood and floated up to stand on the platform. The wind gently lifted his long hair. Clad in his snow-white robe, he looked perfect, beautiful, gentle and refined. He smiled. This caused all the surrounding Cultivators to let out a cheer. What none of them could see, however, was that beneath Wang Tengfei's smile was concealed the bitter pain of loss and defeat.
 
-At that moment, Shangguan Xiu appeared in the crowd, glaring menacingly at Meng Hao.
+At that moment, Shangguan Xiu appeared in the crowd, glaring menacingly at Meng Hao.`
+},
+{
 
-Chapter 29: Inner Sect Training
+title: `Chapter 29: Inner Sect Training`,
 
-Yin Tianlong's face fell as he looked at the character 'eight' on the jade slip in front of him. Hands behind his back, he used his Wind Walking technique to float up onto the platform.
+content: `Yin Tianlong's face fell as he looked at the character 'eight' on the jade slip in front of him. Hands behind his back, he used his Wind Walking technique to float up onto the platform.
 
 The moment his feet touched down, Wang Tengfei lifted his right foot, and suddenly the entire platform began to vibrate with a loud hum, as if some sort of blast was accumulating from all corners. Wang Tengfei didn't move, but the massive invisible force shot toward Yin Tianlong.
 
@@ -3051,11 +3109,13 @@ That's Master Uncle Shangguan's consummate Five Radiances Art! They say it's one
 
 So Han Zong can use this art! Yeah, it must be because of that banner. Could it be a magic item provided by Master Uncle Shangguan?
 
-Emitting shrill, ear-piercing cries, the two-colored Mist Spirits shot toward Meng Hao with irresistible force. The moment his six flying swords touched them, the swords shattered into pieces.
+Emitting shrill, ear-piercing cries, the two-colored Mist Spirits shot toward Meng Hao with irresistible force. The moment his six flying swords touched them, the swords shattered into pieces.`
+},
+{
 
-Chapter 30: Kill Han Zong, Battle Wang Tengfei!
+title: `Chapter 30: Kill Han Zong, Battle Wang Tengfei!`,
 
-Standing in the square beneath the platform, Shangguan Xiu's lips twisted with a grim smile. He didn't care at all whether Meng Hao lived or died. He only wanted the treasures within in Meng Hao's bag of holding.
+content: `Standing in the square beneath the platform, Shangguan Xiu's lips twisted with a grim smile. He didn't care at all whether Meng Hao lived or died. He only wanted the treasures within in Meng Hao's bag of holding.
 
 After Meng Hao had registered for the Inner Sect promotion training, he had gone to find Zhou and Yin to inquire after the events which had occurred in the black mountain. He knew that Meng Hao had provoked masses of Demonic beasts with some supposed Demonic magic.
 
@@ -3141,11 +3201,13 @@ So he was arrogant, indifferent and calm. He let the time pass, allowing this pe
 
 Enough time passed for an incense stick to burn, and then Meng Hao suddenly opened his eyes. They glittered with the desire for battle. He had killed a man of the fifth level of Qi Condensation. He had killed Han Zong. Never before had he killed so many people in one day. But his heart filled with anticipation. He would place Wang Tengfei underfoot and repay in full the humiliation he had endured that day.
 
-Without a word, Meng Hao slowly stood up.
+Without a word, Meng Hao slowly stood up.`
+},
+{
 
-Chapter 31: Fight!
+title: `Chapter 31: Fight!`,
 
-Final match of the training, said Grand Elder Ouyang, looking encouragingly at Meng Hao. Meng Hao and Wang Tengfei. The victor shall be promoted to the Inner Sect.
+content: `Final match of the training, said Grand Elder Ouyang, looking encouragingly at Meng Hao. Meng Hao and Wang Tengfei. The victor shall be promoted to the Inner Sect.
 
 Everyone stared at Meng Hao as he leapt up onto the platform. Wang Tengfei opened his eyes and casually stepped up. Conversations erupted amongst the Outer Sect disciples.
 
@@ -3239,11 +3301,13 @@ Meng Hao had plenty of flying swords. After his experience on the black mountain
 
 As such, he could use even larger groups of them, the same way an ordinary person might just throw objects in succession. Except, he wasn't using his hands, he was using spiritual power to ensure their forward movement. As long as he had enough swords and his spiritual power didn't run out, he could pay the price.
 
-Wang Tengfei didn't use Reliance Sect techniques, because he disdained the Reliance Sect and their techniques. He used techniques of his powerful Clan, enabling him to gain an edge on his peers.
+Wang Tengfei didn't use Reliance Sect techniques, because he disdained the Reliance Sect and their techniques. He used techniques of his powerful Clan, enabling him to gain an edge on his peers.`
+},
+{
 
-Chapter 32: This Finger Brought me Humiliation, Today, I Cripple it!
+title: `Chapter 32: This Finger Brought me Humiliation, Today, I Cripple it!`,
 
-Meng Hao's flying swords and Wang Tengfei's special magic techniques left the surrounding Cultivators awestruck. No longer did they look down on Meng Hao, but rather were stunned by his vast array of magical items.
+content: `Meng Hao's flying swords and Wang Tengfei's special magic techniques left the surrounding Cultivators awestruck. No longer did they look down on Meng Hao, but rather were stunned by his vast array of magical items.
 
 It wasn't just them. Shangguan Xiu, Grand Elder Ouyang, and even Sect Leader He Luohua stared in amazement.
 
@@ -3321,11 +3385,13 @@ It was you who stole away my treasure! Wang Tengfei stared at the wooden sword, 
 
 I have no idea what Elder Brother Wang is talking about, said Meng Hao coldly, wiping the blood off of his mouth. This sword is yours? Are you sure you haven't made a mistake? He consumed several Demonic Cores.
 
-I planned for years to get that sword. It is one-of-a-kind, the only like it in the world. The gold lines on its surface were etched by Heaven itself. Of course I haven't made a mistake. Wang Tengfei looked up to the skies and laughed. It was a grim laugh, a laugh that seemed to make everything around it grow cold.
+I planned for years to get that sword. It is one-of-a-kind, the only like it in the world. The gold lines on its surface were etched by Heaven itself. Of course I haven't made a mistake. Wang Tengfei looked up to the skies and laughed. It was a grim laugh, a laugh that seemed to make everything around it grow cold.`
+},
+{
 
-Chapter 33: Is This Sword Yours Too?
+title: `Chapter 33: Is This Sword Yours Too?`,
 
-Wang Tengfei glared at Meng Hao with cold eyes, then took a step forward. He slapped his bag of holding, and two glittering beams of light shot out. Two magical treasures appeared, one a stone tiger, the other a stone aquatic dragon.
+content: `Wang Tengfei glared at Meng Hao with cold eyes, then took a step forward. He slapped his bag of holding, and two glittering beams of light shot out. Two magical treasures appeared, one a stone tiger, the other a stone aquatic dragon.
 
 They were accompanied by two sounds which reverberated across the square, one, the roaring of a tiger, the other, the howl of a aquatic dragon. The treasures immediately transformed. The first became a white tiger, a few dozen meters in length, the other, a magnificent aquatic dragon. They circled around Wang Tengfei, making him look even more imposing.
 
@@ -3429,11 +3495,13 @@ As he collapsed, Meng Hao bit down hard on his own tongue. He saluted He Luohua,
 
 Grand Elder Ouyang looked at him, his eyes filled with admiration. He slapped his own bag of holding and produced a medicinal pill, which flew forward toward Meng Hao. Meng Hao grabbed it and popped it into his mouth.
 
-He was exhausted to the extreme. Despite his eyes growing dim, he continued on with his breathing exercises, slowly attempting to recover.
+He was exhausted to the extreme. Despite his eyes growing dim, he continued on with his breathing exercises, slowly attempting to recover.`
+},
+{
 
-Chapter 34: Fame from 1,000 Years Ago!
+title: `Chapter 34: Fame from 1,000 Years Ago!`,
 
-Fatty beamed with joy, happy beyond belief, heart pounding. For Meng Hao to become an Inner Sect disciple was almost like he himself had.
+content: `Fatty beamed with joy, happy beyond belief, heart pounding. For Meng Hao to become an Inner Sect disciple was almost like he himself had.
 
 Shangguan Xiu stood in the crowd, face grim. After a bit of time passed, he lowered his head, turned, and left. As he left, his face grew darker, but there was really nothing he could do. Now that Meng Hao was a member of the Inner Sect, even his status as an Elder didn't give him the right to interrogate him. Now, Meng Hao was a true member of the Reliance Sect.
 
@@ -3547,11 +3615,13 @@ Meng Hao felt quite moved by Elder Brother Chen's words. Before, he had been som
 
 To follow the path of spirituality, one must abandon the mortal world. You are no longer a mortal. You are a Cultivator, destined to defy the Heavens. If you are not strong, then you are not qualified to exist. If you are not strong, you are not qualified to practice Cultivation. If you are not strong, then you are not qualified to stay alive, but only to be trampled over. Are you willing to live this kind of life? Brother Chen gazed at Meng Hao. As his words entered Meng Hao's ears and sank into his heart, his eyes began to glitter, and he began to think.
 
-I am a scholar from Yunjie County. My parents went missing when I was just a child, and my dream was always to be become rich and never again live in poverty, then eventually go see the the Great Tang in the Eastern Lands. The chill night wind blew at his hair as he lost himself in contemplation, the same way he had that year on the top of Mount Daqing.
+I am a scholar from Yunjie County. My parents went missing when I was just a child, and my dream was always to be become rich and never again live in poverty, then eventually go see the the Great Tang in the Eastern Lands. The chill night wind blew at his hair as he lost himself in contemplation, the same way he had that year on the top of Mount Daqing.`
+},
+{
 
-Chapter 35: I'm Not Willing!
+title: `Chapter 35: I'm Not Willing!`,
 
-Time slipped by, and at some point, Elder Brother Chen left. Even though Meng Hao had just entered the Inner Sect, he was still a junior Brother, and it was Chen Fan's responsibility to explain matters to him, to help him understand what Cultivation truly is. To help him to know what it means to move forward lest one fall behind, and to comprehend the life-and-death path that was the Cultivation world.
+content: `Time slipped by, and at some point, Elder Brother Chen left. Even though Meng Hao had just entered the Inner Sect, he was still a junior Brother, and it was Chen Fan's responsibility to explain matters to him, to help him understand what Cultivation truly is. To help him to know what it means to move forward lest one fall behind, and to comprehend the life-and-death path that was the Cultivation world.
 
 Entering the Inner Sect was his first true step across the threshold into that world. The next step was Foundation Establishment.
 
@@ -3649,123 +3719,13 @@ I'm not willing to be weak!
 
 I'm not willing to be deprived of the right to fight back!
 
-I will be strong! I will become powerful!! Meng Hao had always wanted to become rich and travel to the Great Tang in the Eastern Lands. He still had that desire, but in addition to that, he had a new belief. He would become powerful. On the path of cultivation, the path of defying the Heavens, if you are not powerful, you are dead.
+I will be strong! I will become powerful!! Meng Hao had always wanted to become rich and travel to the Great Tang in the Eastern Lands. He still had that desire, but in addition to that, he had a new belief. He would become powerful. On the path of cultivation, the path of defying the Heavens, if you are not powerful, you are dead.`
+},
+{
 
-Chapter 36: The Perks of the Inner Sect
+title: `Chapter 36: The Perks of the Inner Sect`,
 
-Half a month passed, during which Meng Hao spent most of his time sitting cross-legged in the Sect's Magic Pavilion, studying the ancient records. Now he had a much deeper understanding of the State of Zhao and the Southern Domain.
-
-He had even discovered a hand-drawn map of the sprawling lands of South Heaven, which showed the Great Tang in the Eastern Lands, the Northern Reaches with its Qiang Di flutes, the Barbarian Western Lands, and of course the Southern Domain, where he was currently located.
-
-The whole world was neatly displayed on the map, and its image was now burned into Meng Hao's brain. The Southern Domain comprised a vast section of the lands of South Heaven, whereas the State of Zhao was just a tiny dot on its perimeter.
-
-The Southern Domain is so big that it could hold thousands of the State of Zhao He looked out at the blue sky outside the Magic Pavilion, his eyes filled with a fascinated look.
-
-So it turns out that traveling to the Great Tang in the Eastern Lands isn't that simple. You have to cross the Milky Way Sea After a while, Meng Hao looked back down at the map, looking at all the four major regions of the lands of South Heaven. The Eastern Lands and the Northern Reaches formed a subcontinent, separated from which by a large ocean were the Western Barbarian Lands and the Southern Domain, which formed another subcontinent.
-
-When the sun began to fall behind the western mountains, and dusk approached, Meng Hao rubbed his eyes, returned the map to its place, and left the Magic Pavilion. He looked off into the distance toward the east for a while, then turned and headed back to his Inner Sect Immortal's Cave.
-
-Inside the Immortal's cave, the luminescent pearls inlaid into the ceiling emitted a soft light onto the light green walls. There were five stone rooms, and a gurgling Spirit Spring, filling the cave with dense Spiritual Energy. This was a perk available only to disciples of the Inner Sect. Meng Hao entered and sat cross-legged onto a slab of white jade. It was not made of Spirit Stone, but meditating upon it helped one's mind to be clear, and was a relatively rare treasure.
-
-This also was something only for Inner Sect disciples.
-
-Only Inner Sect disciples can truly be considered members of the Reliance Sect, thought Meng Hao, quietly looking around. The light green stone walls were carved with various birds and beasts, each of which seemed to be filled with deep meaning. Even looking at them left one feeling refined.
-
-These are very different perks from those in the Outer Sect. This is in order to emphasize the outstanding qualities of Inner Sect disciples. Just like in the mortal world, there is a division of layers. By struggling, one can surpass the Outer Sect. After that, if one wishes to become exalted, one must become stronger!
-
-Soon, dusk fell, and then Meng Hao heard a respectful voice from outside.
-
-Elder Brother Meng, Li Fugui from the foot of the mountain requests an audience. It was the voice of a boy, a servant. After Meng Hao had joined the Inner Set, this boy had been assigned to help him care for his daily affairs.
-
-This was yet another perk of life in the Inner Sect. At first, Meng Hao had a hard time getting used to it. He had never had someone waiting upon him before. But when he saw Elder Brother Chen's servant helping him, it was easier to accept. However, he still held firm to his desire to grow stronger.
-
-Only the strong can have power over others, and prevent others from controlling them. The law of the Cultivation world and rules of the Reliance Sect were the same. It was not reasonable or fair, but it existed, and that was the way of life.
-
-Existence was truth. The world is fundamentally unreasonable, and naturally, there is no true fairness.
-
-Send him in, said Meng Hao coolly. Filled with reverence, the young servant complied. After being assigned to wait upon Meng Hao, his very life belonged to him.
-
-Shortly thereafter, Fatty entered, clicking his teeth and striding with long steps. This was not his first time to visit, but rather his third. Every time he came, he was filled with excitement. This was not a place Outer Sect disciples could visit without the consent of the person they called upon.
-
-The young servant led Fatty in respectfully. Fatty looked around, rubbing his hands along various items in wonder, even the white jade slab that Meng Hao sat on.
-
-It's not your first time here, said Meng Hao with a laugh, watching him.
-
-Meng Hao, this place is just too amazing. Every time I come, I just can't control myself. The Immortal's Cave of an Inner Sect disciple. It's a place of legend! You know, after the last time I came here, a bunch of Outer Sect disciples crowded around me asking all sorts of questions. I'm important now! His body trembled, and it took a moment for him to stop thinking about it. He sat down in front of Meng Hao.
-
-If you'd like, I can request for Wang Tengfei's Immortal's cave to be given to you.
-
-That that would be incredible, said Fatty, looking excited, but at the same time a bit shy.
-
-Zhao Hai, said Meng Hao coolly. He waved his right hand, and the main door opened. The young servant rushed in and gave Meng Hao a deep salute.
-
-He looked to be about fourteen or fifteen, close to Fatty's age. He had delicate features, and had only arrived on the mountain recently. It was said he was from the same village as Little Tiger, and that his family was rich.
-
-Take my spirit tablet to the Cave Dispensing Pavilion and retrieve the jade slip to Wang Tengfei's Immortal's Cave. He waved his hand, and a white jade slip flew out into the young servant's hand.
-
-The young servant accepted the assignment, then left with a respectful expression on his face.
-
-Meng Hao, when are you going to come down off the mountain? asked Fatty eagerly. I promised the Outer Sect disciples you would go to inspect them. You can't go back on your word, I promised them.
-
-Grand Master Ouyang said that I would preside over the next Pill Distribution Day, he said with a smile. I believe that would be the day after tomorrow. The two of them had entered the Sect together, three years ago. A deep friendship had long since grown between the two of them.
-
-Great, the day after tomorrow it is. Oh, right, our business has been doing well in the past half month. I already separated out your 80%. He handed a bag of holding to Meng Hao, looking pleased with himself. It seemed he too understood the meaning of the Reliance Sect. With Meng Hao to rely on, who in the Outer Sect would dare to even say one wrong word to him?
-
-Even better, the beautiful female disciples of the Outer Sect had begun to fawn over him until he fairly floated in the air. For the moment, Fatty was quite popular.
-
-Has Shangguan Xiu caused you any problems recently? asked Meng Hao suddenly, his eyes flashing.
-
-Nobody has seen that bastard recently, replied Fatty, his voice becoming grave. I've assigned a disciple to do some spying for me, and he said that Shangguan Xiu sits in secluded meditation all day. He never comes out.
-
-Just be careful, he warned, and not for the first time. If anything happens, snap the message token I gave you.
-
-Soon, the young servant Zhao Hai returned with the jade slip to Wang Tengfei's Immortal's Cave. Meng Hao gave it to Fatty. The two of them laughed and chatted deep into the night. It seemed Fatty didn't want to leave. In fact, he seemed to be growing more excited.
-
-Meng Hao was surprised at this, but when he remembered what day it was, and laughed.
-
-Today is the day Medicinal Fruits are distributed in the Inner Sect, said Meng Hao.
-
-Fatty licked his lips and nodded, his heart filled with envy at the differences between the Inner and Outer Sect disciples. Every month Medicinal Fruits were distributed, a special type of Spiritual Fruit infused with Medicinal Pills. The fruit itself tasted like a Medicinal Pill, but was much more effective than ordinary Medicinal Pills.
-
-Inner Sect disciples received the fruits once per month.
-
-After the time it takes an incense stick to burn, the young servant Zhao Hai entered. He actually despised Fatty, but didn't show even the slightest hint of it on his face. In his hands he carried the Medicinal Fruits, wrapped up in a large green leaf.
-
-A delicate aroma wafted out from it, causing Zhao Hai to swallow deeply. He put the fruits down and then left.
-
-When the large leaf was removed, the medicinal fragrance filled the air. Inside the leaf were two small, semi-transparent, light-red fruits. They seemed so delicate that they might break if you touched them. Inside each one could just barely be seen a medicinal pill.
-
-Fatty's eyes went wide. He had never eaten Medicinal Fruit before, but had heard it mentioned recently by some Outer Sect disciples. After making some enquires, he had discovered the distribution date, and so had hurried eagerly to visit Meng Hao. He picked up one of the fruits and put it into his mouth. He bit down, then swallowed, and a delicious flavor filled his mouth. Then, a hot sensation filled his head and spread out through his whole body.
-
-Amazing, amazing. I must be the first Outer Sect disciple to ever eat a Medicinal Fruit. When word gets out, the girls will be envious to death. Everyone will be envious of Master Fatty's good fortune. It suddenly seemed as if he had remembered something, and he snapped his mouth shut, not letting any of the fragrant aroma escape. Using his hands, he signaled to Meng Hao that he needed to leave, then ran off.
-
-I have proof! he thought. I have to find some of those female disciples and let them smell it. The more he thought about it, the more excited he got, and he raced down the mountain even faster.
-
-Fatty's clever plan was obvious, causing Meng Hao to laugh. He slowly placed the remaining Medicinal Fruit into his mouth. It tasted delicious, filled with dense Medicinal flavor.
-
-This is something else that Inner Sect disciples As he ate the Medicinal Fruit, he sighed. This life was not something that Outer Sect disciples could enjoy. If he wanted to, he could simply make a gesture, and any of the beautiful female disciples would instantly become devoted to him.
-
-Soon, two days had passed, and Pill Distribution Day arrived. Meng Hao walked out of his Immortal's Cave, followed closely by the young servant Zhao Hai. In his hand he carried a purple bag of holding, which was filled with Spirit Stones and Medicinal Pills to be distributed.
-
-A mountain breeze welcomed the dawn as Meng Hao descended the mountain. Along the way, the Outer Sect disciples he ran into would look at him in surprise, then stop and give him a deep salute with clasped hands.
-
-Greetings, Elder Brother Meng.
-
-Elder Brother Meng is as elegant as ever. I haven't seen you in many days, Junior Sister has missed you.
-
-Greetings, Elder Brother Meng. Your latent talent is spectacular, your Cultivation base astonishing. You will definitely be a pillar of the Sect.
-
-Amidst all the flattery Meng Hao walked along until he reached the square, which was already filled with a good number of disciples. Catching sight of him, they saluted, and then the air filled with their flattering words.
-
-He nodded, smiling, then leaped up, carrying Zhao Hai with him onto the platform. This was not his first time here, but it was his first time to distribute Medicinal Pills.
-
-His gaze swept across the crowd. Every single person's face was filled with reverent devotion. Gradually, Meng Hao's face grew distracted, and he thought back to his first Pill Distribution Day, and then to the time Wang Tengfei had humiliated him. Many memories flitted through his mind.
-
-Finally, he heaved a deep sigh, and said, Sound the bells.
-
-Chapter 36: The Perks of the Inner Sect
-
-Half a month passed, during which Meng Hao spent most of his time sitting cross-legged in the Sect's Magic Pavilion, studying the ancient records. Now he had a much deeper understanding of the State of Zhao and the Southern Domain.
+content: `Half a month passed, during which Meng Hao spent most of his time sitting cross-legged in the Sect's Magic Pavilion, studying the ancient records. Now he had a much deeper understanding of the State of Zhao and the Southern Domain.
 
 He had even discovered a hand-drawn map of the sprawling lands of South Heaven, which showed the Great Tang in the Eastern Lands, the Northern Reaches with its Qiang Di flutes, the Barbarian Western Lands, and of course the Southern Domain, where he was currently located.
 
@@ -3873,11 +3833,13 @@ He nodded, smiling, then leaped up, carrying Zhao Hai with him onto the platform
 
 His gaze swept across the crowd. Every single person's face was filled with reverent devotion. Gradually, Meng Hao's face grew distracted, and he thought back to his first Pill Distribution Day, and then to the time Wang Tengfei had humiliated him. Many memories flitted through his mind.
 
-Finally, he heaved a deep sigh, and said, Sound the bells.
+Finally, he heaved a deep sigh, and said, Sound the bells.`
+},
+{
 
-Chapter 37: Water and Ink in the Evening
+title: `Chapter 37: Water and Ink in the Evening`,
 
-The bells rang out, reverberating both in Meng Hao's heart and throughout the Reliance Sect. Soon, Meng Hao could see countless disciples hurrying forward.
+content: `The bells rang out, reverberating both in Meng Hao's heart and throughout the Reliance Sect. Soon, Meng Hao could see countless disciples hurrying forward.
 
 Before long, the square was packed. As the disciples entered, they looked at Meng Hao in shock, then saluted.
 
@@ -4001,11 +3963,13 @@ The evening sunlight slowly faded past the horizon, and then the moon peeked out
 
 I went to the Pill Cultivation Workshop. The Cosmetic Cultivation Pill you gave me before wasn't purchased by you. With that, she left, not looking back.
 
-Meng Hao stared in shock, and wasn't even able to react until some time had passed. He scratched his head. His eyes gradually filled with light. He had never imagined that something like this would happen. And yet, it seemed it had
+Meng Hao stared in shock, and wasn't even able to react until some time had passed. He scratched his head. His eyes gradually filled with light. He had never imagined that something like this would happen. And yet, it seemed it had`
+},
+{
 
-Chapter 38: Qi Condensation Manual of the Sublime Spirit Scripture
+title: `Chapter 38: Qi Condensation Manual of the Sublime Spirit Scripture`,
 
-Two months passed in the twinkling of an eye. Meng Hao had already been a member of the Inner Sect for an entire season. He did not continue to visit the Outer Sect often. Like a fish in water, Fatty had grown accustomed to surviving on his own, and was quite at ease.
+content: `Two months passed in the twinkling of an eye. Meng Hao had already been a member of the Inner Sect for an entire season. He did not continue to visit the Outer Sect often. Like a fish in water, Fatty had grown accustomed to surviving on his own, and was quite at ease.
 
 Most of Meng Hao's time was spent in the Magic Pavilion.
 
@@ -4097,11 +4061,13 @@ Precisely, said Chen Fan with a serious look. Don't attempt to touch it. Because
 
 Xu Qing nodded at Meng Hao, then followed the blood-red glow of her Vorpal Jade in a different direction.
 
-Meng Hao looked around, then was about to activate his own Vorpal Jade when suddenly, a shrill shriek rang out. It grew closer and closer, until it seemed to be only about thirty meters away.
+Meng Hao looked around, then was about to activate his own Vorpal Jade when suddenly, a shrill shriek rang out. It grew closer and closer, until it seemed to be only about thirty meters away.`
+},
+{
 
-Chapter 39: Patriarch Reliance!
+title: `Chapter 39: Patriarch Reliance!`,
 
-Meng Hao's expression changed. He suddenly saw the fog roiling, and then about thirty meters away a shrieking man appeared. He wore a long tattered robe as he charged toward Meng Hao.
+content: `Meng Hao's expression changed. He suddenly saw the fog roiling, and then about thirty meters away a shrieking man appeared. He wore a long tattered robe as he charged toward Meng Hao.
 
 He emanated a fierce heat, which transformed into a ruthless killing aura. Seeing him approach, Meng Hao retreated as fast as possible. This turn of events had happened too quickly. The figure advanced rapidly, and in the blink of an eye it was only nine meters away. Suddenly, it caught sight of the Vorpal Jade in his hand, and its eyes filled with dread and fear.
 
@@ -4207,11 +4173,13 @@ I am already out of Vorpal Jade. Could I have remembered incorrectly Hm? Even as
 
 He observed, dumbstruck, as a sixth, seventh, eighth blood-red light appeared By the third day, countless blood-red lights had appeared, one after another, continuously fusing with his body. Patriarch Reliance's heart surged with excitement, and his face filled with hope. Suddenly, his eyes opened.
 
-These holy hell, these are clearly not my blood, but they are definitely my Blood Crystals. What's going on? What the hell is going on?
+These holy hell, these are clearly not my blood, but they are definitely my Blood Crystals. What's going on? What the hell is going on?`
+},
+{
 
-Chapter 40: Sublime Spirit Scripture
+title: `Chapter 40: Sublime Spirit Scripture`,
 
-At the same moment that Patriarch Reliance opened his eyes, Meng Hao activated the fiftieth Vorpal Jade Blood Crystal. His head vibrated violently, and a scriptural text floated around him. Each and every character of the scripture emitted a bright golden light which pierced through his body. It completely overpowered the blood-red glow, leaving behind a glowing golden aura.
+content: `At the same moment that Patriarch Reliance opened his eyes, Meng Hao activated the fiftieth Vorpal Jade Blood Crystal. His head vibrated violently, and a scriptural text floated around him. Each and every character of the scripture emitted a bright golden light which pierced through his body. It completely overpowered the blood-red glow, leaving behind a glowing golden aura.
 
 As the golden aura spread out, Meng Hao began to change. His Core lake churned violently as it began to take on a golden hue. As the lake water became gold, a thunderous roar sounded out, transforming his entire body.
 
@@ -4291,11 +4259,13 @@ In the space of a moment, powerful members of several great Sects of the Souther
 
 In the Southern Domain, the wind had shifted.
 
-Prismatic streaks of light shot toward the Reliance Sect, as nearly twenty Cultivators from the three great Sects of the State of Zhao moved into action. The weakest among them was of the Foundation Establishment stage. Six were of the Core Formation stage. They cut through the sky with earth-shattering power.
+Prismatic streaks of light shot toward the Reliance Sect, as nearly twenty Cultivators from the three great Sects of the State of Zhao moved into action. The weakest among them was of the Foundation Establishment stage. Six were of the Core Formation stage. They cut through the sky with earth-shattering power.`
+},
+{
 
-Chapter 41: A Sensation in the State of Zhao!
+title: `Chapter 41: A Sensation in the State of Zhao!`,
 
-When the sign appeared in the sky above the Reliance Sect, all of the disciples in the Outer Sect stared up in awe and shock, their minds buzzing. Their eyes filled with vacant looks, unable to comprehend what they were seeing.
+content: `When the sign appeared in the sky above the Reliance Sect, all of the disciples in the Outer Sect stared up in awe and shock, their minds buzzing. Their eyes filled with vacant looks, unable to comprehend what they were seeing.
 
 Looking at the golden characters filling the sky, their hearts trembled. Fatty, who was filing his teeth with the fish-scale sword, made choking sounds, narrowly avoiding stabbing himself in the tongue as he gaped at the scene.
 
@@ -4383,11 +4353,13 @@ The primitive-looking, blue-colored sword flew in, surrounding by swirling, inte
 
 He wore a long scholar's robe, and held his hands clasped behind his back. He was the only person atop the massive sword, but he emanated the aura of a person who could stride among the heavens unhindered by anyone.
 
-The Solitary Sword Sect! said He Luohua, his face changing. He knew the identity of this scholar from the Solitary Sword Sect, the number one Sect in the Southern Domain. Their Sect had a saying: Only a solitary sword need leave the Sect, and the Heavens shall be rattled.
+The Solitary Sword Sect! said He Luohua, his face changing. He knew the identity of this scholar from the Solitary Sword Sect, the number one Sect in the Southern Domain. Their Sect had a saying: Only a solitary sword need leave the Sect, and the Heavens shall be rattled.`
+},
+{
 
-Chapter 42: Who Dares to Touch Him!?
+title: `Chapter 42: Who Dares to Touch Him!?`,
 
-So, it turns out it's Fellow Daoist Zhou Yanyun, said the beautiful, middle-aged woman, greeting him with clasped hands. Even hulking Zhao Shanling gave him a silent salute in greeting, a look of fear hidden in his face.
+content: `So, it turns out it's Fellow Daoist Zhou Yanyun, said the beautiful, middle-aged woman, greeting him with clasped hands. Even hulking Zhao Shanling gave him a silent salute in greeting, a look of fear hidden in his face.
 
 Seeing all these sudden developments, Meng Hao's heart began to pound. This was the first time he had seen so many powerful people from so many Sects. He was especially impressed by the appearance of the members of the three Great Sects from the colossal Southern Domain that Chen Fan had told him about.
 
@@ -4491,11 +4463,13 @@ Pain filled him, and he broke out in a cold sweat. He once again felt as if his 
 
 At that exact moment, a booming sound rang out from within the Reliance Sect. It was a voice, so powerful that it shook the heavens and earth. In the midst of moving upon Meng Hao, Zhou Yanyun and the beautiful middle-aged woman, as well as the hulking man, suddenly looked shocked. They turned their heads, their eyes filled with astonishment.
 
-I have one heir left in the Reliance Sect. Who dares to touch him!?
+I have one heir left in the Reliance Sect. Who dares to touch him!?`
+},
+{
 
-Chapter 43: The Sole Heir
+title: `Chapter 43: The Sole Heir`,
 
-Patriarch Reliance sat in his secret chamber in the Reliance Sect catacombs, his hair disheveled, his eyes red. He looked as if he had gone mad. His plans were about to go awry; in moments, everyone would leave, and if that happened, they wouldn't come back. He watched in sorrow as the Golden Frost Sect Cultivator began to make a move towards his only remaining Inner Sect disciple. Fury rose in him, and without holding anything back from his Cultivation base, he sent his voice thundering out.
+content: `Patriarch Reliance sat in his secret chamber in the Reliance Sect catacombs, his hair disheveled, his eyes red. He looked as if he had gone mad. His plans were about to go awry; in moments, everyone would leave, and if that happened, they wouldn't come back. He watched in sorrow as the Golden Frost Sect Cultivator began to make a move towards his only remaining Inner Sect disciple. Fury rose in him, and without holding anything back from his Cultivation base, he sent his voice thundering out.
 
 It shook the Heavens and stirred up a gale-forced wind which swept back and forth. In the wild mountains surrounding the Reliance Sect, trees were uprooted as the tempest battered the land. Many other trees were simply splintered into pieces until the tempest became a dark green color, filled with flashing lightning. The experts from the State of Zhao floated in mid-air looking on, dumb with amazement.
 
@@ -4593,11 +4567,13 @@ Kid, you are the only heir to my Reliance Sect. Don't get yourself killed. If yo
 
 Meng Hao stared blankly for some time before recovering. It was at this point that he realized that everything which had happened had been Patriarch Reliance's attempt to scare away the outsiders.
 
-So he didn't kill those three people But, what happened to the spear he was going to give me?
+So he didn't kill those three people But, what happened to the spear he was going to give me?`
+},
+{
 
-Chapter 44: The North Sea Reveals the Dao
+title: `Chapter 44: The North Sea Reveals the Dao`,
 
-In the entire expansive Reliance Sect, only Meng Hao remained, standing alone on the East Mountain. He watched the red light fade away, then lowered his head. The formerly bustling Outer Sect was now empty.
+content: `In the entire expansive Reliance Sect, only Meng Hao remained, standing alone on the East Mountain. He watched the red light fade away, then lowered his head. The formerly bustling Outer Sect was now empty.
 
 Elder Sister Xu had been taken away. Elder Brother Chen had gone to the Southern Domain. Even Fatty was gone. He had no idea when he would see them again. Would it be months? Years?
 
@@ -4707,11 +4683,13 @@ Today, the North Sea revealed the Dao. One day when my Cultivation base is high 
 
 Regardless, it had helped him make a breakthrough in his Cultivation base, helped him turn his Core Lake into a Core sea. He must repay the kindness. There was only one way: to help this lake become a sea!
 
-After some time passed, Meng Hao turned and strode toward Mount Daqing.
+After some time passed, Meng Hao turned and strode toward Mount Daqing.`
+},
+{
 
-Chapter 45: A Look Back at the Mortal World after Three Years
+title: `Chapter 45: A Look Back at the Mortal World after Three Years`,
 
-Autumn wind curled around Mount Daqing in the north of the State of Zhao. Most of the rattan vines had dried and withered, and leaves floated down from the mountain into the river below. Perhaps they, like that gourd bottle from years ago, would eventually reach the Milky Way Sea and then float on to the Great Tang in the Eastern Lands.
+content: `Autumn wind curled around Mount Daqing in the north of the State of Zhao. Most of the rattan vines had dried and withered, and leaves floated down from the mountain into the river below. Perhaps they, like that gourd bottle from years ago, would eventually reach the Milky Way Sea and then float on to the Great Tang in the Eastern Lands.
 
 Beneath Mount Daqing lay three counties. Yunjie County was the most flourishing of the three. It wasn't very large, but it bustled with people. When market day came, people from the whole mountain region gathered there, and a hubbub of voices would fill the air.
 
@@ -4817,11 +4795,13 @@ Fatty's father was the famous Moneybags Li of Yunkai County. From what Fatty had
 
 He had said his chamberpot was made of silver, his quilts purchased from the capital city of the State of Zhao, and that from childhood, maidservants would heat his bed for him before he slept. That arrangement had continued as he grew up, and he said he couldn't even remember how many maidservants he'd touched in his life. In any case, he had never lacked for want of anything, all the way down until the time his marriage had been arranged. His fiancée was an extremely beautiful young woman from a family of famous scholars in Yunkai. His father had put a lot of thought, and money, into successfully arranging the matter.
 
-As he thought back to Fatty's expression when he talked about it, Meng Hao smiled. He walked into Yunkai County.
+As he thought back to Fatty's expression when he talked about it, Meng Hao smiled. He walked into Yunkai County.`
+},
+{
 
-Chapter 46: Three Long Spears
+title: `Chapter 46: Three Long Spears`,
 
-Meng Hao had been to Yunkai County a few times before. Usually it was when he needed to buy pens, ink, paper and inkstones. Perhaps because the excess of wealth in the village prompted a demand for scholarly embellishments, the price of writing supplies was cheaper than average.
+content: `Meng Hao had been to Yunkai County a few times before. Usually it was when he needed to buy pens, ink, paper and inkstones. Perhaps because the excess of wealth in the village prompted a demand for scholarly embellishments, the price of writing supplies was cheaper than average.
 
 Even though three years had passed, the place looked just like before. As Meng Hao walked down the streets, he couldn't help but notice that outside of many of the shops hung lanterns, upon which the character Li was written in sweeping calligraphy.
 
@@ -4913,11 +4893,13 @@ Meng Hao nodded, retrieving the silver and gold spears. He tested them out, then
 
 -----
 
-This is a series of 5 special chapters sponsored by Jon Alle, Jingping Lai, Erik Gordon, Christian Dela Cruz, Sai Pakalapat, Marco Pacheco Dera, Chris Sherman, Sheela Mugan, Tjandra Johannes, Deep Bhattacharya, Allen Porter, Daniel Delaney, Steven Melendez, Abdul azim Nasyirah Diyana, and Austin Minett
+This is a series of 5 special chapters sponsored by Jon Alle, Jingping Lai, Erik Gordon, Christian Dela Cruz, Sai Pakalapat, Marco Pacheco Dera, Chris Sherman, Sheela Mugan, Tjandra Johannes, Deep Bhattacharya, Allen Porter, Daniel Delaney, Steven Melendez, Abdul azim Nasyirah Diyana, and Austin Minett`
+},
+{
 
-Chapter 47: Another Encounter with Shangguan Xiu
+title: `Chapter 47: Another Encounter with Shangguan Xiu`,
 
-An Immortal!
+content: `An Immortal!
 
 Li Dafu seemed to be frozen in place, trembling violently. He looked as if he, too, might drop to his knees. Before, he had assumed this person was extraordinary in some way, but had never imagined that he could be an immortal. Then he suddenly became even more excited as he remembered the man had said that his son was a friend from his Sect.
 
@@ -5009,11 +4991,13 @@ This time, there's no special promotion training! How can you escape my hands?! 
 
 -----
 
-This is a series of 5 special chapters sponsored by Jon Alle, Jingping Lai, Erik Gordon, Christian Dela Cruz, Sai Pakalapat, Marco Pacheco Dera, Chris Sherman, Sheela Mugan, Tjandra Johannes, Deep Bhattacharya, Allen Porter, Daniel Delaney, Steven Melendez, Abdul azim Nasyirah Diyana, and Austin Minett
+This is a series of 5 special chapters sponsored by Jon Alle, Jingping Lai, Erik Gordon, Christian Dela Cruz, Sai Pakalapat, Marco Pacheco Dera, Chris Sherman, Sheela Mugan, Tjandra Johannes, Deep Bhattacharya, Allen Porter, Daniel Delaney, Steven Melendez, Abdul azim Nasyirah Diyana, and Austin Minett`
+},
+{
 
-Chapter 48: Eccentric Song and Wu Dingqiu [1. Eccentric Song's surname in Chinese is ? Sòng. It has no real meaning. It is the same "Song" as the Song Dynasty. Wu Dingqiu's name in Chinese is ??? wú ding qiu. Wu is a common family name. Ding is the fourth heavenly stem. Qiu means Autumn]
+title: `Chapter 48: Eccentric Song and Wu Dingqiu [1. Eccentric Song's surname in Chinese is ? Sòng. It has no real meaning. It is the same "Song" as the Song Dynasty. Wu Dingqiu's name in Chinese is ??? wú ding qiu. Wu is a common family name. Ding is the fourth heavenly stem. Qiu means Autumn]`,
 
-Thunder rolled out in the evening sky. Rosy clouds drifted about, and the autumn wind rustled, picking up the fallen leaves and sending them floating. It should have been a beautiful, rainy autumn evening, but the peacefulness was interrupted by two figures who occasionally dropped to the ground, but then immediately shot back up into the air. They soared along, engaged in a life-and-death pursuit.
+content: `Thunder rolled out in the evening sky. Rosy clouds drifted about, and the autumn wind rustled, picking up the fallen leaves and sending them floating. It should have been a beautiful, rainy autumn evening, but the peacefulness was interrupted by two figures who occasionally dropped to the ground, but then immediately shot back up into the air. They soared along, engaged in a life-and-death pursuit.
 
 Meng Hao was in front, his eyes glistening. After reaching the seventh level of Qi Condensation, he could maintain top speed on his flying sword for the time it takes half an incense stick to burn. At that rate, he could not shake off Shangguan Xiu.
 
@@ -5097,11 +5081,13 @@ For a hundred kilometres surrounding my treasure mountain, Spirit Beasts roam fr
 
 -----
 
-This is a series of 5 special chapters sponsored by Jon Alle, Jingping Lai, Erik Gordon, Christian Dela Cruz, Sai Pakalapat, Marco Pacheco Dera, Chris Sherman, Sheela Mugan, Tjandra Johannes, Deep Bhattacharya, Allen Porter, Daniel Delaney, Steven Melendez, Abdul azim Nasyirah Diyana, and Austin Minett
+This is a series of 5 special chapters sponsored by Jon Alle, Jingping Lai, Erik Gordon, Christian Dela Cruz, Sai Pakalapat, Marco Pacheco Dera, Chris Sherman, Sheela Mugan, Tjandra Johannes, Deep Bhattacharya, Allen Porter, Daniel Delaney, Steven Melendez, Abdul azim Nasyirah Diyana, and Austin Minett`
+},
+{
 
-Chapter 49: Mountain of Trial by Fire
+title: `Chapter 49: Mountain of Trial by Fire`,
 
-My Violet Fate Sect is one of the great sects of the Southern Domain. These may be just Outer Sect disciples, but even to enter the Sect, each and every one of them passed nine difficult tests. Every month, they immerse their bodies in a Spirit Spring. They possess inexhaustible amounts of precious materials. All of them have extraordinary latent talent, rarely seen in any Sect.
+content: `My Violet Fate Sect is one of the great sects of the Southern Domain. These may be just Outer Sect disciples, but even to enter the Sect, each and every one of them passed nine difficult tests. Every month, they immerse their bodies in a Spirit Spring. They possess inexhaustible amounts of precious materials. All of them have extraordinary latent talent, rarely seen in any Sect.
 
 These disciples could flatten your crappy mountain with the wave of a hand. As for your Demonic creatures, they aren't even fit to be eaten by my disciples. They're not Mutated beasts they're Mutt beasts! Wu Dingqiu glared with wide eyes. The disciples behind him lowered their heads in embarrassment, glancing at Eccentric Song.
 
@@ -5185,11 +5171,93 @@ By the time dawn broke, the two of them had travelled a very long distance. In f
 
 -----
 
-This is a series of 5 special chapters sponsored by Jon Alle, Jingping Lai, Erik Gordon, Christian Dela Cruz, Sai Pakalapat, Marco Pacheco Dera, Chris Sherman, Sheela Mugan, Tjandra Johannes, Deep Bhattacharya, Allen Porter, Daniel Delaney, Steven Melendez, Abdul azim Nasyirah Diyana, and Austin Minett
+This is a series of 5 special chapters sponsored by Jon Alle, Jingping Lai, Erik Gordon, Christian Dela Cruz, Sai Pakalapat, Marco Pacheco Dera, Chris Sherman, Sheela Mugan, Tjandra Johannes, Deep Bhattacharya, Allen Porter, Daniel Delaney, Steven Melendez, Abdul azim Nasyirah Diyana, and Austin Minett`
+},
+{
 
-Chapter 51: My Treasure Mountain
+title: `Chapter 50: Iron Spear`,
 
-Even though this kid isn't a disciple of my Violet Fate Sect, you said anyone could enter this area. Seeing him run wild in your crappy mountain forest makes me feel good. I'm happy, so what? Wu Dingqiu laughed, obviously feeling quite pleased. He had been reigning himself in all night, and now he knew that even though Eccentric Song spoke casually, he was hiding his discomfiture. Feeling quite pleasant, Wu Dingqiu looked down below at Meng Hao.
+content: `As soon as he caught sight of the mountain ahead of him, Meng Haos eyes began to shine. It was clearly beyond the ordinary, and perhaps even contained some Demonic beasts. In any case, he didnt have much time to think about it. His body flashed as he shot directly toward the mountainous forest which lay at its foot.
+
+Behind him, Shangguan Xius expression changed. His Cultivation base was higher than Meng Haos; he had tread the Cultivation world for many years, and had seen many things. He could tell that something was fishy about this mountain. But as he saw Meng Hao charge forward, he put aside his doubts, gritted his teeth, and followed.
+
+Meanwhile on the plateau, white-robed Wu Dingqiu and Eccentric Song sat, seemingly playing Go, but in reality focused on the fighting going on below them. From their vantage point, it was clear that the Violet Fate Sect disciples were stuck in the mountain forest, and after an entire night, could not step foot onto the mountain. One by one, they were rebuffed by the Demonic beasts.
+
+The Violet Fate Sect disciples truly are beyond ordinary, said Eccentric Song, laughing. To be able to stay in the Spirit Beast forest for an entire night is excellent. Wu Dingqiu, you really should be proud. He looked extremely complacent, and even happier when he saw the dark look on Wu Dingqius face.
+
+Wu Dingqius face sank even deeper as he saw the sorry state of his disciples within the forest. He let out a cold harrumph.
+
+Wu Dingqiu, you should really proud. Last time the Golden Frost Sect came to me to engage in trial by fire, they were all defeated by my Spirit beasts. Not a single one could make it to my treasure mountain to see the truly powerful Spirit beasts. I felt really sad about that. I really hope that your Violet Fate Sect disciples can make a good showing. This Spirit forest is filled with Spirit beasts that I meticulously selected. For example, that one. He proudly pointed a finger toward a white-colored ape.
+
+Its entire body, even its eyes, were as white as snow, and its appearance was incredibly fierce. With a single swipe of its claws, it slashed the arm of one of the Violet Fate Sect disciples, sending blood spraying everywhere. It moved with incredible speed, like a white wind. It had already injured about seven or eight surrounding Violet Fate Sect disciples.
+
+That is a Snow Peak Mutated beast, rarely seen in the world. I got my hands on it about ten years ago. Its extremely rare. Look at its fur, as pure white as snow and as smooth as silk. I should be able to sell it for a hefty price one day. Eccentric Song laughed, pleased with himself. White-robed Wu Dingqiu looked even more grim. Hed never imaged that after all these years, Eccentric Songs treasure mountain would have so many powerful Demonic beasts.
+
+Even as Eccentric Song spoke, a figure appeared near the edge of the forest near the white ape. It was Meng Hao, with Shangguan Xiu hot on his tail. Eccentric Song laughed.
+
+So, some outsiders have decided to intrude. Wu Dingqiu, please observe what it means to keep ones promise. I will not prevent any Cultivator of the Qi Condensation stage from entering this area. Anyone can enter. Although they will surely die, I will not block them.
+
+Wu Dingqiu let out a cold snort, not paying the least bit of attention to Meng Hao and Shangguan Xiu. Instead, he stared at the white ape, which had just encountered another Violet Fate Sect disciple. He appeared to be about seventeen or eighteen years old. His hands flickered in incantation patterns, and suddenly the image of an ancient scroll unfurled behind him. An aura billowed out, pushing down onto the white ape. It shrieked.
+
+A fine Mutated ape, said Wu Dingqiu Eccentric Song, no matter how incredible that beast is, its going to become my disciples pet! His name is Shi Yan. Upon entering the Sect, he acquired that ancient scroll, which at the seventh level of Qi Condensation, can capture Demonic beasts. Inside, Wu Dingqius heart pounded, but his expression was cool and indifferent, somewhat proud. Considering his status and Cultivation base, he shouldnt allow such an expression onto his face. But Eccentric Song made it impossible for him to hold back, especially after the humiliation of the previous night.
+
+However, as soon as the words were out of his mouth, a piteous wail could be heard. Blood showered from Shi Yans chest, and his ancient scroll collapsed into pieces. He retreated backwards, fear in his eyes. The white apes body began to expand, until it was nearly eighteen meters tall. It beat its chest, seeming to brim with power.
+
+Eccentric Song laughed loudly. Wu Dingqiu stared at the white ape, his face twisted, fighting the impulse to charge forward and crush the thing to death.
+
+It was at that moment that Meng Hao shot out of the forest. As soon as he caught sight of the roaring ape, his eyes glittered brightly. He also saw the frightened young man off in the distance, but didnt have time to consider the situation.
+
+With people present, Meng Hao wouldnt reveal the copper mirror. His eyes flashed as the white ape took notice of him. The beast charged him, howling ferociously. Meng Hao lifted his right hand, and suddenly an iron spear appeared, the one Fattys father had created according to his specifications. The young Cultivator named Shi Yan watched as the spear appeared.
+
+Of course, in addition to the long spear, the copper mirror also emerged, concealed within Meng Haos sleeve. The sleeve was so wide that any observers would not be able to see it, especially considering how their eyes would be drawn to the long spear.
+
+The spear was made of common iron, but its surface was covered with various complicated designs, all of which Meng Hao had designed. At a glance, it appeared to be extraordinary in nature. Brandishing the spear, he moved forward, pointing it toward the charging ape.
+
+Suddenly, the white apes large mouth exploded violently, blood and flesh flying around. Wretched screams immediately sounded out. The ape fell down onto the ground, looking at Meng Hao in astonishment.
+
+Perhaps when the mirror shines onto a beast with lots of fur, it causes some kind of disorder in the Qi within its body, making it swell. Demonic beasts are even bigger and stronger, so it will attempt to escape from any weak point in the body, not just the rear end, thus leading to these explosive injuries. Of course, all of this was just speculation, but Meng Hao seemed to understand the mirror a bit better after seeing what happened to the white ape. After having the copper mirror for three years, he felt this was pretty close to the truth.
+
+Now was not the time for contemplation, however. Not giving the miserable white ape another glance, he shot off with the iron spear in hand. He was gone in an instant. Just then, Shangguan Xiu arrived. He looked at the white ape in shock.
+
+The white ape was also surprised. And then it noticed that Shangguan Xiu also happened to be carrying a spear, and its fury exploded. It pounced toward Shangguan Xiu.
+
+Back on the plateau, Eccentric Songs laughter had ceased. Next to him, Wu Dingqiu also watched on in surprise. They stared at Meng Hao and his iron spear, their eyes filled with amazement.
+
+Meng Hao sped through the Demonic Beast forest, listening to the howls of the white ape and the roars of Shangguan Xiu. His eyes flickered, and he harrumphed coldly. Not too much time passed before he heard another commotion coming from up ahead. Soon, he saw four or five Cultivators wearing white robes, engaged in vicious combat with three Demonic beasts, each of them six meters tall.
+
+One was a large black tiger, the other was a peacock whose body emanated a glowing, violet light. The last was an enormous giant rat, fierce and cruel in appearance, seemingly unable to be killed.
+
+As soon as Meng Hao appeared in the midst of the fight, a vicious light appeared in the peacocks eyes, and it charged like an insane gale, straight toward Meng Hao.
+
+Looking as calm as ever, Meng Hao kept moving forward, pointing the iron spear forward. Suddenly, the giant peacocks body trembled, and it shrieked miserably. Then, its head exploded, and it fell to the ground, dead, surrounded by blood and gore. The black tiger and the giant rat were shocked. As they stared dumbly, Meng Haos body turned into a streak of light, and he shot off into the distance.
+
+As for the Violet Fate Sect disciples, they watched, dumbfounded, as Meng Hao disappeared. His iron spear had left them awestruck.
+
+Not pausing for even a moment, Meng Hao continued on. At this moment, Shangguan Xiu had resumed his furious pursuit.
+
+A grim smile appeared on Meng Haos face. He increased his speed, charging forward. Every time he encountered a Demonic beast, he would wave his spear at it, and it would retreat, crying out miserably. Not a single beast could block his path. In contrast, Shangguan Xiu was blocked at every turn. His enraged roars sounded further and further away from Meng Hao.
+
+Meng Hao also encountered more and more young, white-robed Cultivators along his way, all of them locked in deadly battles with Demonic beasts. As he passed, he would cause these seemingly unmatchable, fierce creatures to flinch back with blood-curdling screams. The Cultivators would look at Meng Haos retreating figure with awe.
+
+Who was that?
+
+That long spear is some kind of magical item! Its so powerful!
+
+How vicious! Dammit, if I had a spear like that, I could run amok through this Demonic Beast Forest.
+
+Conversation buzzed among the Violet Fate Sect disciples, caused by Meng Haos shocking passage. On top of the plateau, Wu Dingqius eyes glittered, and a smile tugged at the corners of his mouth. His laughter rang out, filled with joy as well as a pleased anger.
+
+So these are Mutated beasts, he said. Excellent, excellent. They are all amazing beasts. Let me have a look. Hmm, some are missing eyes, others have had their heads ripped off. There are some whose entire bodies are covered with blood. One even had its butt exploded. Eccentric Song, didnt you say that this Demonic Beast Forest was fertilized with soil from the East Sea? And didnt you say that these Mutated beasts were all amazing? It seems they are having a bit of a rough time today.
+
+An unsightly expression filled Eccentric Songs face as he watched Meng Hao make his way through the Demonic Creature Forest. He watched all his precious Demonic beasts retreating with blood-curdling cries, covered with blood. When he saw the death of the peacock, his heart felt as if it had been stabbed with a knife. This type of peacock was called a Snow Phoenix and was extremely rare. He had paid quite an exorbitant price for it several years ago, and had cared for it like a treasured jewel. And yet the iron spear had exploded its head in an instant. Even though it was dead, its powerful life force caused the corpse to twitch and writhe. Eccentric Song felt extreme regret, but his eyes shone forth with an air of indifference.
+
+Who cares? he said. There are a multitude of Spirit beasts in my Spirit Beast Forest. Theres no harm in it. In any case, this kid isnt one of your Violet Fate Sect disciples, so what are you looking so happy for?! He spoke in a light tone, but inside, his heart was beginning to pound.`
+},
+{
+
+title: `Chapter 51: My Treasure Mountain`,
+
+content: `Even though this kid isn't a disciple of my Violet Fate Sect, you said anyone could enter this area. Seeing him run wild in your crappy mountain forest makes me feel good. I'm happy, so what? Wu Dingqiu laughed, obviously feeling quite pleased. He had been reigning himself in all night, and now he knew that even though Eccentric Song spoke casually, he was hiding his discomfiture. Feeling quite pleasant, Wu Dingqiu looked down below at Meng Hao.
 
 That magic item of his can really dominate the Spirit Beasts, said Eccentric Song. His Cultivation base is low, though. He won't be able to make it out of the Spirit Beast Forest. This forest is planted with trees I harvested from all the lands of South Heaven. It is watered with Spirit Water from the Milky Way Sea. Not only do the trees grow tall and strong, but they emit spiritual energy which the Spirit beasts can assimilate through breathing exercises. In my Spirit Beast Forest, there is also His voice came to a sudden, screeching stop.
 
@@ -5277,11 +5345,13 @@ He intruded into our trial by fire and took away our rewards it's too cruel.
 
 That iron spear is definitely a treasure from the Heavens! It's so ferocious!
 
-Eccentric Song trembled in distress. He watched as Meng Hao, approaching the mountain's peak, snatched up a black net. He could no longer feign calm. His stood up and took a step forward, ready to go teach Meng Hao a lesson.
+Eccentric Song trembled in distress. He watched as Meng Hao, approaching the mountain's peak, snatched up a black net. He could no longer feign calm. His stood up and took a step forward, ready to go teach Meng Hao a lesson.`
+},
+{
 
-Chapter 52: Bumper Crop
+title: `Chapter 52: Bumper Crop`,
 
-Once, he could endure. Twice, three times, four times, even five times he could continue to endure. By the sixth time, however, he was shamed into a rage and could endure no longer. The Heaven Entangling Net was even more precious to him than the scroll painting. It could instantly entangle an opponent, and had been among his treasured items for years. The higher your Cultivation base, the more effective it became. He had placed it on the treasure mountain to show off its splendor, so that people would see it and covet it. He had assumed it would be safe, and had never imagined that anyone would actually be able to take it. As of now, he had already begun to go crazy, and wished nothing more than to beat Meng Hao to death and take back the oil painting and Heaven Entangling Net.
+content: `Once, he could endure. Twice, three times, four times, even five times he could continue to endure. By the sixth time, however, he was shamed into a rage and could endure no longer. The Heaven Entangling Net was even more precious to him than the scroll painting. It could instantly entangle an opponent, and had been among his treasured items for years. The higher your Cultivation base, the more effective it became. He had placed it on the treasure mountain to show off its splendor, so that people would see it and covet it. He had assumed it would be safe, and had never imagined that anyone would actually be able to take it. As of now, he had already begun to go crazy, and wished nothing more than to beat Meng Hao to death and take back the oil painting and Heaven Entangling Net.
 
 But then, Wu Dingqiu, laughing smugly, flicked his wide sleeve and stood in front of Eccentric Song, blocking his way.
 
@@ -5363,11 +5433,13 @@ The black net instantly expanded, growing larger and larger, and flying up highe
 
 He grabbed the net, his mouth dry. He breathed for a while, composing himself. His eyes glowed.
 
-This is better than even the best treasures from the Reliance Sect, he thought, his heart pounding. Then, he pulled out the last item, the multicolored bag.
+This is better than even the best treasures from the Reliance Sect, he thought, his heart pounding. Then, he pulled out the last item, the multicolored bag.`
+},
+{
 
-Chapter 53: How will you thank me?
+title: `Chapter 53: How will you thank me?`,
 
-This looks kind of like a bag of holding, but a bit better. Meng Hao moved it back and forth in his hands, then used his spiritual power to feel it out a bit. Suddenly, his body began to tremble, as if it had been struck by invisible lightning. His eyes widened, revealing complete astonishment. After a long time passed, he lowered his head and looked into the bag.
+content: `This looks kind of like a bag of holding, but a bit better. Meng Hao moved it back and forth in his hands, then used his spiritual power to feel it out a bit. Suddenly, his body began to tremble, as if it had been struck by invisible lightning. His eyes widened, revealing complete astonishment. After a long time passed, he lowered his head and looked into the bag.
 
 It's so big he murmured. It was a bag of holding, but was so large inside that it seemed as if it could contain heaven and earth. The insides were misty, and so boundless that Meng Hao's heart immediately shook.
 
@@ -5469,11 +5541,13 @@ Daoist Brother, I hope you don't mind, she said with a smile, leaning close and 
 
 -----
 
-This chapter was sponsored by Jon Liu, Juan Reyes and Mitchell Kutchuk
+This chapter was sponsored by Jon Liu, Juan Reyes and Mitchell Kutchuk`
+},
+{
 
-Chapter 54: An Old Friend from the Sect
+title: `Chapter 54: An Old Friend from the Sect`,
 
-I I'm just a scholar Meng Hao gaped, his mouth wide, unsure of how to respond. When he had bought things back in Yunjie County, he had never encountered a situation like this. To have a beautiful girl smiling sweetly at him, looking so charming, caused the red flush to suddenly fill his face once again.
+content: `I I'm just a scholar Meng Hao gaped, his mouth wide, unsure of how to respond. When he had bought things back in Yunjie County, he had never encountered a situation like this. To have a beautiful girl smiling sweetly at him, looking so charming, caused the red flush to suddenly fill his face once again.
 
 Seeing Meng Hao's embarrassed expression, the young woman covered her mouth and laughed softly. She turned, her waist swaying enchantingly as she walked over to the Pill oven. She lowered her head to speak to the middle-aged man who sat there in meditation.
 
@@ -5571,11 +5645,13 @@ Recently, they had all received jade slips from their respective Sects reminding
 
 As the white-robed Cultivators entered the city, they saw the State of Zhao disciples, but completely ignored them. Hearing their identities called out caused a couple of them to frown. Their eyes swept the surroundings, then came to rest on the iron spear stuck into the ground. They stopped in their tracks.
 
-Other disciples who were watching the scene looked astonished. Their excited eyes flickered to stare at the State of Zhao Cultivators.
+Other disciples who were watching the scene looked astonished. Their excited eyes flickered to stare at the State of Zhao Cultivators.`
+},
+{
 
-Chapter 55: Overbearing
+title: `Chapter 55: Overbearing`,
 
-A dark look flashed through Meng Hao's eyes. He was surrounded by disciples of various Sects from the State of Zhao, and the white-robed Cultivators were approaching from the East gate. If he aroused the attention of the various eccentrics from the three sects within the city, then his chances of getting away would be very slim.
+content: `A dark look flashed through Meng Hao's eyes. He was surrounded by disciples of various Sects from the State of Zhao, and the white-robed Cultivators were approaching from the East gate. If he aroused the attention of the various eccentrics from the three sects within the city, then his chances of getting away would be very slim.
 
 When the disciples of the State of Zhao Sects saw the Violet Fate Sect disciples walking up, excited expressions lit their faces. To be able to make friends with them would increase their standing in their own respective Sects, and would provide great advantages in further development. Most of them had assumed the Violet Fate Sect disciples would ignore all of them, but it turned out they really were approaching them.
 
@@ -5667,11 +5743,13 @@ Elder Brother Meng, I, Qian, very much admire your performance on the treasure m
 
 Meng Hao's heart groaned. If these people wanted to bring trouble upon themselves, he wouldn't stop them. A variety of expressions crossed his face, and he retreated a few more steps back, muttering to himself. Then, gritting his teeth, he lifted his head. His eyes were bloodshot.
 
-Esteemed Violet Fate Sect disciples. If you truly wish to purchase my spear, please, name your price. Meng Hao flicked his sleeve, stabbing the spear into the ground. His face seemed to be grim and filled with pain.
+Esteemed Violet Fate Sect disciples. If you truly wish to purchase my spear, please, name your price. Meng Hao flicked his sleeve, stabbing the spear into the ground. His face seemed to be grim and filled with pain.`
+},
+{
 
-Chapter 56: Elder Brother Meng, Whether or not You Want to Trade, You Will!
+title: `Chapter 56: Elder Brother Meng, Whether or not You Want to Trade, You Will!`,
 
-When Meng Hao spoke, everything went quiet. Everyone's eyes focused on the iron spear sticking out of the ground.
+content: `When Meng Hao spoke, everything went quiet. Everyone's eyes focused on the iron spear sticking out of the ground.
 
 Qian Shuihen laughed loudly, cupping hands in salute to Meng Hao.
 
@@ -5763,11 +5841,13 @@ It's just an iron spear, the man said quietly. That young member of the junior g
 
 -----
 
-This chapter was sponsored by Tjandra Johannes, Deep Bhattacharya, and Ngan Nguyen
+This chapter was sponsored by Tjandra Johannes, Deep Bhattacharya, and Ngan Nguyen`
+},
+{
 
-Chapter 57: Was it Worth it?
+title: `Chapter 57: Was it Worth it?`,
 
-Meng Hao felt quite conflicted. He stood on the treasured fan he had just acquired, using as much spiritual power as he could muster to flee at top speed. He feared that if he was even the least bit slow, he would be attacked and robbed.
+content: `Meng Hao felt quite conflicted. He stood on the treasured fan he had just acquired, using as much spiritual power as he could muster to flee at top speed. He feared that if he was even the least bit slow, he would be attacked and robbed.
 
 First I offended Eccentric Song, sighed Meng Hao, and then the Violet Fate Sect But it's not my fault, they forced me to trade. In his mind, he was innocent. At the time, he had no choice but to trade the spear. Sighing repeatedly, he pushed himself to go faster, getting closer and closer to the State Shield Mountain range.
 
@@ -5875,11 +5955,13 @@ Meanwhile, Meng Hao was both scared witless and also felt that he was being accu
 
 Was it worth it? he sighed to himself. He was tired from the days of running, but had simply been too frightened of being caught. Now, he was on his last legs.
 
-Two days later at dawn, he opened his eyes and began running again. For half a month, he didn't dare to let anyone see him. Finally, deep in the remote mountains, when he felt it was safe, he used a flying sword to carve out a cave, then sealed himself inside to meditate.
+Two days later at dawn, he opened his eyes and began running again. For half a month, he didn't dare to let anyone see him. Finally, deep in the remote mountains, when he felt it was safe, he used a flying sword to carve out a cave, then sealed himself inside to meditate.`
+},
+{
 
-Chapter 58: This is not its World
+title: `Chapter 58: This is not its World`,
 
-Two months passed. Meng Hao sat cross-legged in the Immortal's Cave in the deep mountains. Suddenly, a thunderous noise rang out, sending the nearby animals scattering. The large stone slab he had sliced out to seal the cave suddenly shattered into pieces.
+content: `Two months passed. Meng Hao sat cross-legged in the Immortal's Cave in the deep mountains. Suddenly, a thunderous noise rang out, sending the nearby animals scattering. The large stone slab he had sliced out to seal the cave suddenly shattered into pieces.
 
 Stone fragments showered out in all directions as Meng Hao emerged from the Immortal's Cave. His hair hung down like a cloak around his scholar's robe. His eyes glittered like lightning, and a shocking aura emanated from him, as well as a pleasant, fragrant aroma.
 
@@ -5993,11 +6075,13 @@ Thank you for allowing me to accompany you, Brother Zheng, said Meng Hao coolly.
 
 Yearning for summer, Zheng Yong murmured to himself, but only able to exist in the cold of winter. Only able to look off into the distance that is snow. He watched Meng Hao disappearing into the distance. After a while, he got out of the cart and gave a deep bow in Meng Hao's direction.
 
-Snow began to cover him, but he knew that as soon as he reentered the carriage, it would die. He would never forget what had just happened, and what he had just seen and heard. Years later, after he became a famous Confucian in the State of Zhao, he would think back to that windy, winter night when the snow slowly melted into water. And he would think of a scholar named Meng Hao.
+Snow began to cover him, but he knew that as soon as he reentered the carriage, it would die. He would never forget what had just happened, and what he had just seen and heard. Years later, after he became a famous Confucian in the State of Zhao, he would think back to that windy, winter night when the snow slowly melted into water. And he would think of a scholar named Meng Hao.`
+},
+{
 
-Chapter 59: Unable to see Chang'an
+title: `Chapter 59: Unable to see Chang'an`,
 
-The State of Zhao was in the southern part of the Southern Domain, which was connected to the Western subcontinent. These two areas were separated from the rest of the lands of South Heaven by the Milky Way Sea, although it is possible that long ago, the lands of South Heaven had not been split in this way.
+content: `The State of Zhao was in the southern part of the Southern Domain, which was connected to the Western subcontinent. These two areas were separated from the rest of the lands of South Heaven by the Milky Way Sea, although it is possible that long ago, the lands of South Heaven had not been split in this way.
 
 To state things more clearly, the State of Zhao exists on the edge of the Southern Domain, far from the sea. Only by passing over numerous mountains would the boundless Milky Way Sea become visible.
 
@@ -6107,11 +6191,13 @@ He was starting to think that being stared at by the corpse within the vortex ha
 
 -----
 
-This chapter was sponsored by Mitchell Kutchuk, Tu Ha, and Hein Haugeberg
+This chapter was sponsored by Mitchell Kutchuk, Tu Ha, and Hein Haugeberg`
+},
+{
 
-Chapter 60: Undispellable Death Aura
+title: `Chapter 60: Undispellable Death Aura`,
 
-The capital city drew further and further away. A long time passed, during which time Meng Hao pushed down the feeling of fear that quivered in his heart. He frowned, scanning his body. It had withered; while before he had been somewhat slim, he was now somewhat emaciated.
+content: `The capital city drew further and further away. A long time passed, during which time Meng Hao pushed down the feeling of fear that quivered in his heart. He frowned, scanning his body. It had withered; while before he had been somewhat slim, he was now somewhat emaciated.
 
 That problem was secondary to what really alarmed Meng Hao. His body continuously emanated strands of black mist, as if it were burning. It continued to come out of him, no matter how much he tried to wave it away. It floated high up into the air, making it possible for anyone around to determine his location.
 
@@ -6213,11 +6299,13 @@ Yan Ziguo looked shocked. He slapped his bag of holding, and a jade slip appeare
 
 The orders were several months old, so Yan Ziguo had mostly forgotten about them. Scanning the jade slip, he looked closely at the picture of Meng Hao's face and, sure enough, it was the same as the person he had just encountered.
 
-So it's him! said Yan Ziguo, his eyes gleaming. His mouth twisted into a cold smile. He was just about to say something when suddenly, the ground trembled and the sky above turned crimson. Something shocking was happening not too far away in the Southern Domain, and the side-effects were spreading out to cover the entire area.
+So it's him! said Yan Ziguo, his eyes gleaming. His mouth twisted into a cold smile. He was just about to say something when suddenly, the ground trembled and the sky above turned crimson. Something shocking was happening not too far away in the Southern Domain, and the side-effects were spreading out to cover the entire area.`
+},
+{
 
-Chapter 61: A Shocking Event in the Southern Domain
+title: `Chapter 61: A Shocking Event in the Southern Domain`,
 
-An earth-shaking boom rumbled out from the heavens.
+content: `An earth-shaking boom rumbled out from the heavens.
 
 The source of the sound wasn't close, but seemed to billow forth from quite some distance. It wasn't directed toward the location of Meng Hao and the others, but rather seemed to cover the entire State of Zhao. At this moment, every Cultivator within the nation could hear the massive roar.
 
@@ -6333,11 +6421,13 @@ And this was Meng Hao's temperament. Not attacking was fine. But when attacking,
 
 -----
 
-This chapter was sponsored by Hein Haugeberg
+This chapter was sponsored by Hein Haugeberg`
+},
+{
 
-Chapter 62: One Wave Settles Down
+title: `Chapter 62: One Wave Settles Down`,
 
-As soon as the Hellfighting Spike touched the space between Yan Ziguo's eyebrows, a black frost began to spread out rapidly. In the blink of an eye, it had covered his entire body. A cracking sound could be heard, and Yan Ziguo's eyes widened. His pupils shrank, and an astonished expression filled his face. Then, his entire body shattered into chunks of black, frozen flesh, which then fell to the ground.
+content: `As soon as the Hellfighting Spike touched the space between Yan Ziguo's eyebrows, a black frost began to spread out rapidly. In the blink of an eye, it had covered his entire body. A cracking sound could be heard, and Yan Ziguo's eyes widened. His pupils shrank, and an astonished expression filled his face. Then, his entire body shattered into chunks of black, frozen flesh, which then fell to the ground.
 
 Originally, Meng Hao had wanted to flee. But Yan Ziguo had arranged for his escape routes to be blocked. Therefore, Meng Hao made the decision to strike him down.
 
@@ -6415,11 +6505,13 @@ Sun Hua's eyes flickered, and the two soaring in the air, Zhou and Xu, let out c
 
 Beat it! said Meng Hao, his eyes flashing. He raised his right hand, and instantly, a twenty or thirty meter long Flame Python appeared. Radiating intense, scorching heat, it shot to meet the flying hand.
 
-Meng Hao flicked his right sleeve, whereupon two wooden swords appeared. Glowing brightly, they became the fangs of the Flame Python as it surged forward.
+Meng Hao flicked his right sleeve, whereupon two wooden swords appeared. Glowing brightly, they became the fangs of the Flame Python as it surged forward.`
+},
+{
 
-Chapter 63: Another Wave Rises Up!
+title: `Chapter 63: Another Wave Rises Up!`,
 
-A boom rolled out. The giant mist hand had been created by the combined effort of two eighth-level Qi Condensation disciples from the Winding Stream Sect. Meng Hao by himself couldn't possibly stand up to it directly. This was why he had used the second most mysterious items in his bags of holding, the wooden swords. The first most mysterious item was, of course, the copper mirror.
+content: `A boom rolled out. The giant mist hand had been created by the combined effort of two eighth-level Qi Condensation disciples from the Winding Stream Sect. Meng Hao by himself couldn't possibly stand up to it directly. This was why he had used the second most mysterious items in his bags of holding, the wooden swords. The first most mysterious item was, of course, the copper mirror.
 
 The wooden swords, which had been the object of Wang Tengfei's desire, now flew out from Meng Hao's hand. They slashed through the giant mist hand and proceeded toward the two Winding Stream Sect disciples.
 
@@ -6507,11 +6599,13 @@ He retreated, dropping toward the ground, but finding no place to conceal himsel
 
 Borrowing some momentum from the explosion of the Hellfighting Spike, Meng Hao took in a ragged breath. A fierce look appeared in his eyes, and he smacked his bag of holding again. A wooden sword appeared. He didn't even have time to point the sword towards the arrow. It came in so quickly that it slammed into the side of the blade.
 
-Boom!
+Boom!`
+},
+{
 
-Chapter 64: A Massacre Caused by a Silver Spear
+title: `Chapter 64: A Massacre Caused by a Silver Spear`,
 
-When the wooden sword connected with the arrow, it began to emit a droning sound. It was pushed back by the force of the arrow and smacked into Meng Hao's forehead. Blood sprayed from his mouth, as he was sent spinning backward. As for the arrow, its power was spent, and it transformed into ash, which drifted away in the wind.
+content: `When the wooden sword connected with the arrow, it began to emit a droning sound. It was pushed back by the force of the arrow and smacked into Meng Hao's forehead. Blood sprayed from his mouth, as he was sent spinning backward. As for the arrow, its power was spent, and it transformed into ash, which drifted away in the wind.
 
 As Meng Hao flew backwards, he slapped his bag of holding, and produced a Demonic Core, which he swallowed. He was running low on Earthly Spirit Pills, so he opted for the Demonic Core. His eyes were shot with blood, and his injuries were severe. This was perhaps the worst he had been hurt since becoming a Cultivator.
 
@@ -6625,11 +6719,13 @@ Meng Hao!! He wanted to chase after him, but Meng Hao had long since disappeared
 
 -----
 
-This chapter was sponsored by Hein Haugeberg, Tommy Iskandar, and Morten Stakemeier
+This chapter was sponsored by Hein Haugeberg, Tommy Iskandar, and Morten Stakemeier`
+},
+{
 
-Chapter 65: Battle at the North Sea
+title: `Chapter 65: Battle at the North Sea`,
 
-An iron spear had cheated the Violet Fate Sect disciples.
+content: `An iron spear had cheated the Violet Fate Sect disciples.
 
 A silver spear had cheated Sun Hua and Liu Daoyun, and had caused friction between two great Sects.
 
@@ -6739,11 +6835,13 @@ His finger pointed up, and suddenly the black net which had been spinning away m
 
 All of this takes quite a bit of time to describe, but all happened in the space of just a moment. Ding Xin's expression changed instantaneously. Before he could react, the huge net had caught him up. The two wooden swords shot toward him, and it seemed they would stab into his chest.
 
-It was a simple tactic that had just occurred to Meng Hao. It wasn't perfect, but it was the best he could come up with on the spur of the moment. He had even used the feathers of the treasured fan and sacrificed the multitude of flying swords in an attempt to catch his opponent off guard. He had done it all for one purpose: to distract his opponent. And it had worked.
+It was a simple tactic that had just occurred to Meng Hao. It wasn't perfect, but it was the best he could come up with on the spur of the moment. He had even used the feathers of the treasured fan and sacrificed the multitude of flying swords in an attempt to catch his opponent off guard. He had done it all for one purpose: to distract his opponent. And it had worked.`
+},
+{
 
-Chapter 66: A Great Kindness!
+title: `Chapter 66: A Great Kindness!`,
 
-Everything was all to give the wooden swords a chance at a kill!
+content: `Everything was all to give the wooden swords a chance at a kill!
 
 Ding Xin's eyes narrowed as a feeling of sudden, intense danger welled up in his heart. This was the first time he had experienced this feeling in the backwater State of Zhao. Even in the Southern Domain, he had never provoked the wrath of Foundation Establishment Cultivators; he'd only ever been in tousles with people of the same stage as himself.
 
@@ -6839,11 +6937,13 @@ One of the swords had just been tracked down by Ding Xin. His eyes gleamed as he
 
 When Ding Xin saw this, a look of surprise appeared in his eyes. Without hesitation, he raced in pursuit.
 
-This treasure is sentient! thought Ding Xin. His heart began to thump wildly as he eagerly sped even faster to intercept the wooden sword.
+This treasure is sentient! thought Ding Xin. His heart began to thump wildly as he eagerly sped even faster to intercept the wooden sword.`
+},
+{
 
-Chapter 67: The Death of Ding Xin
+title: `Chapter 67: The Death of Ding Xin`,
 
-Meng Hao sped along through the North Sea, moving faster and faster. The Core sea within him seethed and roiled, and before long he caught sight of the surface of the lake. He burst out of the water, sending waves surging in all directions.
+content: `Meng Hao sped along through the North Sea, moving faster and faster. The Core sea within him seethed and roiled, and before long he caught sight of the surface of the lake. He burst out of the water, sending waves surging in all directions.
 
 At the same time as he shot out of the lake, his two wooden swords appeared, whistling through the air from different directions as they flew toward him. They circulated around him, one of them coming to rest beneath his feet, the other flying next to him.
 
@@ -6927,11 +7027,13 @@ I am the snow during winter. If I get too close to summer, then summer will melt
 
 -----
 
-This chapter was sponsored by Jack Bullock
+This chapter was sponsored by Jack Bullock`
+},
+{
 
-Chapter 68: Milky Way City
+title: `Chapter 68: Milky Way City`,
 
-After the battle at the North Sea, and his rebirth in the depths of the lake, the death aura had been completely dispelled. As he walked through the wind and snow, not a sliver of it emanated out.
+content: `After the battle at the North Sea, and his rebirth in the depths of the lake, the death aura had been completely dispelled. As he walked through the wind and snow, not a sliver of it emanated out.
 
 The fact that the black aura, which had encircled him for more than a month, was now gone, made Meng Hao's pace a bit more leisurely as he moved through the snowfall.
 
@@ -7031,11 +7133,13 @@ His getup looked strange, but didn't attract any attention at all in Milky Way C
 
 Of course, this person was none other than Meng Hao.
 
-He had made up his mind to sell some of his magical items and medicinal pills. So, he had disguised himself and come to this place. He strolled in through the city gates, looking around. As he did, his eyes narrowed. He immediately lowered his head, and, putting on a nonchalant air, entered a shop.
+He had made up his mind to sell some of his magical items and medicinal pills. So, he had disguised himself and come to this place. He strolled in through the city gates, looking around. As he did, his eyes narrowed. He immediately lowered his head, and, putting on a nonchalant air, entered a shop.`
+},
+{
 
-Chapter 69: Young Lord Ding
+title: `Chapter 69: Young Lord Ding`,
 
-Shangguan Xiu, garbed in a black robe, frowned as he walked down the street in Milky Way City. Two Cultivators of the seventh level of Qi Condensation, also wearing black robes, walked behind him. From the looks on their faces, they seemed to admire Shangguan Xiu quite a bit.
+content: `Shangguan Xiu, garbed in a black robe, frowned as he walked down the street in Milky Way City. Two Cultivators of the seventh level of Qi Condensation, also wearing black robes, walked behind him. From the looks on their faces, they seemed to admire Shangguan Xiu quite a bit.
 
 Accompanying Shangguan Xiu in his inspection of the city, they walked past the shop Meng Hao had just ducked into.
 
@@ -7149,11 +7253,13 @@ Young Lord Ding, please don't take offense. I was simply making conversation. Sh
 
 -----
 
-This chapter was sponsored by Krystle Rivas
+This chapter was sponsored by Krystle Rivas`
+},
+{
 
-Chapter 70: Breaking Through to the Ninth Level of Qi Condensation!
+title: `Chapter 70: Breaking Through to the Ninth Level of Qi Condensation!`,
 
-This pill was concocted personally by Grandmaster Pill Demon of the Violet Fate Sect. Its. Young Lord Ding, what is your relationship to Grandmaster Pill Demon?
+content: `This pill was concocted personally by Grandmaster Pill Demon of the Violet Fate Sect. Its. Young Lord Ding, what is your relationship to Grandmaster Pill Demon?
 
 Name your price. He said nothing else. He frowned, his eyes filled with a look that made it seem as if whether he wanted to or not, he had no choice but to sell the pill.
 
@@ -7281,11 +7387,13 @@ Such a strange arrest order instantly aroused the attention of quite a few peopl
 
 The Core Formation Eccentrics of the three great Sects went last month to visit the State of Revelation. They paid respects to Lord Revelation, and asked him to divine whether or not Patriarch Reliance is really dead or not. According to his divination, Patriarch Reliance is weak to the point of death. However, the Immortal's Cave he is in can only be opened by an Inner Sect disciple. Lord Revelation is already here with them in the State of Zhao, searching for where Patriarch Reliance is sealed in secluded meditation!
 
-As soon as the news began to spread, the three great Sects went to great lengths to stamp down the rumors. Anyone found spreading them would be punished by death penalty, and any city where the rumors appeared would be enveloped by a sealing spell casted by the three great Sects, preventing anyone from going in or out.
+As soon as the news began to spread, the three great Sects went to great lengths to stamp down the rumors. Anyone found spreading them would be punished by death penalty, and any city where the rumors appeared would be enveloped by a sealing spell casted by the three great Sects, preventing anyone from going in or out.`
+},
+{
 
-Chapter 71: Dong Hu
+title: `Chapter 71: Dong Hu`,
 
-In the remote wilderness not too far from Mount Daqing, Meng Hao sat in the Immortal's Cave, his body shaking. Sweat poured off of him, soaking him as he emanated an intense heat. This in turn produced a thick mist that circulated around the cave, filling it with the aroma of sweat.
+content: `In the remote wilderness not too far from Mount Daqing, Meng Hao sat in the Immortal's Cave, his body shaking. Sweat poured off of him, soaking him as he emanated an intense heat. This in turn produced a thick mist that circulated around the cave, filling it with the aroma of sweat.
 
 Meng Hao's entire body was bright red, and it felt as if an immense fire were raging inside of him that would soon wither up his flesh and blood and turn him into a pile of ash. At the moment, his body was completely stiff, incapable of the slightest movement.
 
@@ -7384,11 +7492,13 @@ Meng Hao halted in his tracks and looked back at Little Tiger. What are you talk
 -----
 
 
-This chapter was sponsored by Morten Stakemeier, Jack Bullock, Mitchell Kutchuk and Marius Wittmann
+This chapter was sponsored by Morten Stakemeier, Jack Bullock, Mitchell Kutchuk and Marius Wittmann`
+},
+{
 
-Chapter 72: A True Man
+title: `Chapter 72: A True Man`,
 
-Little Tiger looked closely at Meng Hao. He had been naive as a child, but after joining the Reliance Sect, had experienced many unimaginable misfortunes. In his heart, he had become as hard as iron. No one knew how many Cultivators he had secretly slain.
+content: `Little Tiger looked closely at Meng Hao. He had been naive as a child, but after joining the Reliance Sect, had experienced many unimaginable misfortunes. In his heart, he had become as hard as iron. No one knew how many Cultivators he had secretly slain.
 
 He stared at Meng Hao and gradually came to the realization that he really did not know about what had happened recently.
 
@@ -7486,11 +7596,13 @@ His eyes narrowed, and his body spun. There, on a small mountain path, wearing a
 
 In his hands, he carried a dozen severed heads. Shangguan Xiu looked at him as he approached. Meng Hao tossed the heads forward, and they plopped to the ground in front of Shangguan Xiu, who then flicked his sleeve, sending them scattering about.
 
-Your turn, said Meng Hao, his voice hoarse. He usually didn't want to kill, but today. He did.
+Your turn, said Meng Hao, his voice hoarse. He usually didn't want to kill, but today. He did.`
+},
+{
 
-Chapter 73: Fierce Fighting
+title: `Chapter 73: Fierce Fighting`,
 
-Ninth level of Qi Condensation! Eyeing Meng Hao, Shangguan Xiu took a deep breath. He had been maintaining the spell here for two months. The Cultivators from Milky Way City didn't know the true reason he was here, and he didn't want their top level experts around anyway. He was here for Meng Hao.
+content: `Ninth level of Qi Condensation! Eyeing Meng Hao, Shangguan Xiu took a deep breath. He had been maintaining the spell here for two months. The Cultivators from Milky Way City didn't know the true reason he was here, and he didn't want their top level experts around anyway. He was here for Meng Hao.
 
 Based on everything he had seen and heard recently, he had been sixty-percent certain that Meng Hao possessed some sort of unholy treasured item that could endlessly duplicate treasures.
 
@@ -7566,11 +7678,13 @@ From the day he began to walk the path of Cultivation until today, he had never 
 
 His eyes were bloodshot; the poison was under control, but could not easily be expelled. In fact, as of now, he could tell that it would be impossible to expel the poison while he was in the Qi Condensation stage. Only if he reached Foundation Establishment could he do so.
 
-Milky Way Sea! he shouted, his hair flying about him crazily. He bit the tip of his tongue and spit out a glob of blood. A violet pearl flew out from within the blood, within which could be seen what appeared to be a seething mass of wind. As soon as it appeared, a fierce gale arose, sending Meng Hao's latest three arrows into a spin. Then, they simply collapsed into pieces.
+Milky Way Sea! he shouted, his hair flying about him crazily. He bit the tip of his tongue and spit out a glob of blood. A violet pearl flew out from within the blood, within which could be seen what appeared to be a seething mass of wind. As soon as it appeared, a fierce gale arose, sending Meng Hao's latest three arrows into a spin. Then, they simply collapsed into pieces.`
+},
+{
 
-Chapter 74: Not Past One Hundred Years
+title: `Chapter 74: Not Past One Hundred Years`,
 
-The pearl spun back into Shangguan Xiu's mouth, whereupon he used his remaining arm to slap his bag of holding. Multiple flying swords, banners and other magical items appeared, all flying forward at the same time. Then, one by one they exploded into pieces. Shangguan Xiu lifted his hands, and the fragments of the various magical items rose up to create something like a sea.
+content: `The pearl spun back into Shangguan Xiu's mouth, whereupon he used his remaining arm to slap his bag of holding. Multiple flying swords, banners and other magical items appeared, all flying forward at the same time. Then, one by one they exploded into pieces. Shangguan Xiu lifted his hands, and the fragments of the various magical items rose up to create something like a sea.
 
 From a distance, the multiple fragments glinted blindingly, making it seem as if there really was a sea floating in the sky. The sea began to spin, and then shot directly toward Meng Hao, whistling through the air.
 
@@ -7646,11 +7760,13 @@ I was at the eighth level of Qi Condensation, so it took me two months, thought 
 
 With a rumbling sound, the two wooden swords trembled and then began to emit a powerful air. Slowly but surely they moved closer to Shangguan Xiu. They were about three inches away from him when they slowly grounded to a halt. This was Meng Hao's limit. He didn't have enough spiritual power, and just couldn't make the swords move any further.
 
-You don't know your own limitations, said Shangguan Xiu with a cold laugh. I could have established my Foundation fifty years ago. With the profundity of my Cultivation base, I will be able to absorb the Foundation Establishment Pill in less than an hour. You'd best do whatever you can now to flee. But even if you run to the edges of the earth, I can tell you now, you're dead. He stared at Meng Hao, his hatred conjuring up hundreds of ways to kill Meng Hao.
+You don't know your own limitations, said Shangguan Xiu with a cold laugh. I could have established my Foundation fifty years ago. With the profundity of my Cultivation base, I will be able to absorb the Foundation Establishment Pill in less than an hour. You'd best do whatever you can now to flee. But even if you run to the edges of the earth, I can tell you now, you're dead. He stared at Meng Hao, his hatred conjuring up hundreds of ways to kill Meng Hao.`
+},
+{
 
-Chapter 75: An Ancient Path Appears Again!
+title: `Chapter 75: An Ancient Path Appears Again!`,
 
-Meng Hao's face was grim. He looked at the two wooden swords, which hovered three inches away from Shangguan Xiu. Those three inches were like a massive ravine that Meng Hao could not cross with his current Cultivation base.
+content: `Meng Hao's face was grim. He looked at the two wooden swords, which hovered three inches away from Shangguan Xiu. Those three inches were like a massive ravine that Meng Hao could not cross with his current Cultivation base.
 
 As for Shangguan Xiu, at the moment, he couldn't really be considered a Qi Condensation Cultivator. Although he was still some distance from Foundation Establishment, a Dao pillar was forming within his Core Lake. As of this moment, despite the fact that Meng Hao was at the ninth level of Qi Condensation, he was so weak compared to Shangguan Xiu that he wouldn't be able to withstand a single blow.
 
@@ -7740,11 +7856,13 @@ This was Meng Hao. Once he made a decision, he wouldn't change his mind easily.
 
 -----
 
-This chapter sponsored by Sai Pakalapati, Tjandra Johannes and Anand Manthripragada
+This chapter sponsored by Sai Pakalapati, Tjandra Johannes and Anand Manthripragada`
+},
+{
 
-Chapter 76: Beyond Flawlessness
+title: `Chapter 76: Beyond Flawlessness`,
 
-The two wooden swords circled around, emitting a shocking sword aura. They sped toward Shangguan Xiu's head, one from the left, one from the right, carrying Meng Hao's killing intent with them. This time, it was clear that Shangguan Xiu would not be able to evade.
+content: `The two wooden swords circled around, emitting a shocking sword aura. They sped toward Shangguan Xiu's head, one from the left, one from the right, carrying Meng Hao's killing intent with them. This time, it was clear that Shangguan Xiu would not be able to evade.
 
 There is something more precious than a Flawless Foundation, shrieked Shangguan Xiu in a piercing voice. It's something that in the Southern Domain, in fact in all the four continents, is a hundred thousand times more rare than your tenth level of Qi Condensation. I'm talking about a Perfect Foundation!! Meng Hao, you. Then Meng Hao's two swords stabbed into his head, sending fountains of blood in all directions.
 
@@ -7840,11 +7958,13 @@ No wonder Shangguan Xiu wanted to join the Reliance Sect Just like Wang Tengfei,
 
 In addition to the turtle shell, Shangguan Xiu's bag of holding also contained a small pill furnace fashioned from translucent green crystal, about the size of a hand. He also had large quantities of medicinal plants, all of them placed in jade boxes. There were hundreds of different types.
 
-Many of the medicinal plants were unfamiliar to Meng Hao, but thankfully, there was also a jade slip in the bag of holding with complete records regarding identification methods for all of the plants. Perusing this, Meng Hao grew more and more excited.
+Many of the medicinal plants were unfamiliar to Meng Hao, but thankfully, there was also a jade slip in the bag of holding with complete records regarding identification methods for all of the plants. Perusing this, Meng Hao grew more and more excited.`
+},
+{
 
-Chapter 77: Lord Revelation
+title: `Chapter 77: Lord Revelation`,
 
-Although these medicinal plants were not precious materials, they were still rare. Many Cultivators would spend decades attempting to collect them.
+content: `Although these medicinal plants were not precious materials, they were still rare. Many Cultivators would spend decades attempting to collect them.
 
 And yet here in Shangguan Xiu's bag of holding were hundreds.
 
@@ -7944,11 +8064,13 @@ Meng Hao's heart sank; today there was nowhere to hide. After a moment, his expr
 
 -----
 
-This chapter was sponsored by Anand Manthripragada, Pailin Tapaneeyaworrawong, Shawna Avila, and Patrick Laplante.
+This chapter was sponsored by Anand Manthripragada, Pailin Tapaneeyaworrawong, Shawna Avila, and Patrick Laplante.`
+},
+{
 
-Chapter 78: No Choice but to Believe!
+title: `Chapter 78: No Choice but to Believe!`,
 
-Fellow Daoist Revelation truly deserves his reputation of being able to make ingenious divinations, said one of the Core Formation Eccentrics from the three great Sects. He laughed.
+content: `Fellow Daoist Revelation truly deserves his reputation of being able to make ingenious divinations, said one of the Core Formation Eccentrics from the three great Sects. He laughed.
 
 He arrived here even faster than us.
 
@@ -8048,11 +8170,13 @@ The old woman's face was calm, and it was impossible to tell what she was thinki
 
 Seeing the Fellow Daoist's actions, I must humbly act to save my own face. Lord Revelation smiled and waved his right hand. A three-colored medicinal pill appeared and raced toward Meng Hao.
 
-Compared to the other medicinal pills, this pill appeared extraordinary. Meng Hao wasn't sure why, but when his gaze fell onto this pill, his entire body felt jittery.
+Compared to the other medicinal pills, this pill appeared extraordinary. Meng Hao wasn't sure why, but when his gaze fell onto this pill, his entire body felt jittery.`
+},
+{
 
-Chapter 79: Kill!
+title: `Chapter 79: Kill!`,
 
-Four poison pills, said Meng Hao, his voice grim and his expression unsightly. I of the younger generation am worried that if I consume this pill, I won't be able to lead you forward. If the poison takes effect, I will die. If it doesn't take effect, then how will the elder generation ensure that I can dispel the poison later? Or have you not even considered that?!
+content: `Four poison pills, said Meng Hao, his voice grim and his expression unsightly. I of the younger generation am worried that if I consume this pill, I won't be able to lead you forward. If the poison takes effect, I will die. If it doesn't take effect, then how will the elder generation ensure that I can dispel the poison later? Or have you not even considered that?!
 
 Of course there is a poison dispelling technique, said the red-faced old man from the Cold Wind Sect, his face expressionless. Whether or not you chose to believe is up to you. In this, he used Meng Hao's own tactic against him. The complete resolution of all the various matters now rested on Meng Hao.
 
@@ -8150,11 +8274,13 @@ You! said the red-faced old man, his eyes filled with rage.
 
 -----
 
-This chapter was sponsored by Krystle Rivas
+This chapter was sponsored by Krystle Rivas`
+},
+{
 
-Chapter 80: Meng Hao's Scheming
+title: `Chapter 80: Meng Hao's Scheming`,
 
-Fellow Daoist, there's no need to lose your temper, said Lord Revelation, smiling. As far as these trifling issues amongst the junior generation, why don't we just watch on?
+content: `Fellow Daoist, there's no need to lose your temper, said Lord Revelation, smiling. As far as these trifling issues amongst the junior generation, why don't we just watch on?
 
 As these words were exchanged between the two of them, Liu Daoyun let out another miserable cry. Meng Hao stepped forward, and with the slice of a sword, sent Liu Daoyun's left arm flying off from his body. Blood sprayed everywhere. More flying swords flew out from Meng Hao's bag of holding. One after another, they stabbed into his opponent. Blood spread out everywhere. In the space of an instant, Liu Daoyun's body was penetrated by a dozen swords.
 
@@ -8244,11 +8370,13 @@ After the space of ten or so breaths, Lord Revelation and the Core Formation Ecc
 
 Upon entering the vortex, their minds spun, and they began to breathe hard. Looking around, the first thing they caught sight of was an enormous stone stele. Golden characters were inscribed onto the stele. The characters at the very top instantly sent their eyes shining.
 
-Sublime Spirit Scripture!!
+Sublime Spirit Scripture!!`
+},
+{
 
-Chapter 81: The Patriarch's Immortal's Cave
+title: `Chapter 81: The Patriarch's Immortal's Cave`,
 
-In Patriarch Reliance's meditation zone, all of the Cultivators from the State of Zhao were staring at the stone stele which had been left behind by Chen Fan [1. Chen Fan left behind the in Chapter 40]. With great enthusiasm, they copied the text onto jade slips.
+content: `In Patriarch Reliance's meditation zone, all of the Cultivators from the State of Zhao were staring at the stone stele which had been left behind by Chen Fan [1. Chen Fan left behind the in Chapter 40]. With great enthusiasm, they copied the text onto jade slips.
 
 This stone stele is the Sublime Spirit Scripture!
 
@@ -8352,11 +8480,13 @@ The face belonged to none other than Patriarch Reliance!
 
 -----
 
-This chapter was sponsored by Patrick Laplante, Zameel Mejia, and Jago Spencer
+This chapter was sponsored by Patrick Laplante, Zameel Mejia, and Jago Spencer`
+},
+{
 
-Chapter 82: The Great Art of Demonic Life
+title: `Chapter 82: The Great Art of Demonic Life`,
 
-Upon the forehead of the giant face appeared seven ancient-looking oil lamps, all of them extinguished. A massive and ancient aura emanated out in all directions. The exquisite aura seemed to contain the essence of heaven and earth.
+content: `Upon the forehead of the giant face appeared seven ancient-looking oil lamps, all of them extinguished. A massive and ancient aura emanated out in all directions. The exquisite aura seemed to contain the essence of heaven and earth.
 
 When the giant face appeared, the State of Zhao Cultivators all looked shocked, and some of them made to flee.
 
@@ -8444,11 +8574,13 @@ I can already use the full power of my Nascent Soul, he said with a smile. Combi
 
 At the same time, one of the Core Formation Cultivators from the Winding Stream Sect retreated rapidly. Suddenly, a burning fire shot out from his feet, which then wrapped around his body, enveloping him. He seemed to turn into a burning pillar of light as he shot away.
 
-The other person, a Grand Elder from the Cold Wind Sect, suddenly seemed to be growing younger. His face, originally filled with wrinkles, now suddenly appeared to be middle-aged. His aura billowing, he took three steps, during which time he transformed into a beam of light.
+The other person, a Grand Elder from the Cold Wind Sect, suddenly seemed to be growing younger. His face, originally filled with wrinkles, now suddenly appeared to be middle-aged. His aura billowing, he took three steps, during which time he transformed into a beam of light.`
+},
+{
 
-Chapter 83: Patriarch, What About Disciple's Poison?
+title: `Chapter 83: Patriarch, What About Disciple's Poison?`,
 
-As he took the first step, blood and Qi roiled, and he was no longer middle-aged, but a teenager, and he moved three times faster than he had been before.
+content: `As he took the first step, blood and Qi roiled, and he was no longer middle-aged, but a teenager, and he moved three times faster than he had been before.
 
 He took a second step, and his body quivered. His robes fell off, as he had turned into an infant. Again his speed tripled. His body was almost entirely transparent at this point, and a three-colored light began to envelop him.
 
@@ -8532,11 +8664,13 @@ Low-grade Spirit Stone? he said coolly. That's right. It's a low-grade Spirit St
 
 Meng Hao gaped in astonishment, looking back at the Spirit Stone in his hand. As he watched Patriarch Reliance disappearing into the fissure, he spoke again. Patriarch, you how long before you can dispel Disciple's poison?
 
-Not very long. It'll be soon. I only have three, maybe five hundred years of work to do. Okay, well I need to go into secluded meditation now. He muttered to himself about the difficulty of dispelling poison, and the fact that his Cultivation base wasn't completely recovered yet. Based on what it would cost him, it wouldn't be worth it. Furthermore, he had his master plan to think about. As for the Spirit Stone it really was just a common low-grade Spirit Stone. He didn't have any qualms about deceiving members of the junior generation. He had done such things many times in the past. He had cheated many Cultivators back during the days of the Demon Sealing Sect. Giving another dry cough to try to gloss everything over, he lowered his head and disappeared into the fissure. As soon as he entered, it closed up behind him.
+Not very long. It'll be soon. I only have three, maybe five hundred years of work to do. Okay, well I need to go into secluded meditation now. He muttered to himself about the difficulty of dispelling poison, and the fact that his Cultivation base wasn't completely recovered yet. Based on what it would cost him, it wouldn't be worth it. Furthermore, he had his master plan to think about. As for the Spirit Stone it really was just a common low-grade Spirit Stone. He didn't have any qualms about deceiving members of the junior generation. He had done such things many times in the past. He had cheated many Cultivators back during the days of the Demon Sealing Sect. Giving another dry cough to try to gloss everything over, he lowered his head and disappeared into the fissure. As soon as he entered, it closed up behind him.`
+},
+{
 
-Chapter 84: Meng Hao, What Are You Doing?
+title: `Chapter 84: Meng Hao, What Are You Doing?`,
 
-Patriarch, Disciple went through innumerable trials and tribulations to bring those people here. I don't mind if there's no reward, but this poison. A look of indignation had appeared on Meng Hao's face. But before he could even finish speaking, the fissure in the ground closed up completely. There was no trace that it had even existed. Patriarch Reliance was nowhere to be seen and didn't speak. The only things that remained were the seven burning lamps and the flickering light they cast. The seven Cores and the one Nascent Soul let of thin streams of Qi. The streams didn't emanate up, though. As soon as they left the lamp, they were sucked into the ground.
+content: `Patriarch, Disciple went through innumerable trials and tribulations to bring those people here. I don't mind if there's no reward, but this poison. A look of indignation had appeared on Meng Hao's face. But before he could even finish speaking, the fissure in the ground closed up completely. There was no trace that it had even existed. Patriarch Reliance was nowhere to be seen and didn't speak. The only things that remained were the seven burning lamps and the flickering light they cast. The seven Cores and the one Nascent Soul let of thin streams of Qi. The streams didn't emanate up, though. As soon as they left the lamp, they were sucked into the ground.
 
 Patriarch Reliance, I allowed myself to be poisoned because of you. You're from the senior generation, and you're a powerful expert. How could someone as powerful as you do something like this?!
 
@@ -8620,11 +8754,13 @@ It was as if he were being hacked to pieces. His heart ached.
 
 He had always had a strange personality. In comparison to other Cultivators of his generation, he was a true weirdo. His greed and stinginess grew along with his Cultivation base and his age. He didn't have even the slightest bit of an aura of a powerful expert. He didn't seem to have a bottom line in anything either.
 
-Several hundred years ago, during his first Severing, his Dao enlightenment had been regarding greed. You could say that it had been branding onto his spirit, and was a part of his Cultivation.
+Several hundred years ago, during his first Severing, his Dao enlightenment had been regarding greed. You could say that it had been branding onto his spirit, and was a part of his Cultivation.`
+},
+{
 
-Chapter 85: Ancient Demon Sealing Jade
+title: `Chapter 85: Ancient Demon Sealing Jade`,
 
-Greedy and stingy. A miser to the core, even in terms of Cultivation. This was his Dao. In his enlightenment, treasures were the most important thing. These were the things that led to his First Spirit Severing.
+content: `Greedy and stingy. A miser to the core, even in terms of Cultivation. This was his Dao. In his enlightenment, treasures were the most important thing. These were the things that led to his First Spirit Severing.
 
 This was why his meditation zone had so many areas protected by restrictive spells. It was his life savings. Accumulating all these items was not just a hobby, it was his version of the Dao.
 
@@ -8706,11 +8842,13 @@ His eyes began to glitter. When Patriarch Reliance saw this, his heart began to 
 
 -----
 
-This chapter was sponsored by Randall Klatt
+This chapter was sponsored by Randall Klatt`
+},
+{
 
-Chapter 86: Demonic Lamps that Separate Heaven and Earth!
+title: `Chapter 86: Demonic Lamps that Separate Heaven and Earth!`,
 
-Break through the seal? Meng Hao's eyes glittered as he glanced down at the seven oil lamps on the ground. He looked at them for a moment, then shot toward them.
+content: `Break through the seal? Meng Hao's eyes glittered as he glanced down at the seven oil lamps on the ground. He looked at them for a moment, then shot toward them.
 
 He ignored the howls of Patriarch Reliance. After pillaging all the previous treasures, he was now certain that the Patriarch wouldn't be coming out.
 
@@ -8790,11 +8928,13 @@ The flames flickered as even more spiritual energy flew toward Meng Hao. As of n
 
 The gravitational force within me is not dispersing, it's actually growing stronger. Is it possible that after the tenth level of Qi Condensation, there's an eleventh level? Gritting his teeth, he called upon the power of the tenth level of Qi Condensation to take another step forward. He was now only three paces from the seven lamps. The flames within the lamps danced wildly as twenty percent of the spiritual energy they produced was sucked up by Meng Hao.
 
-He took a deep breath, then sat down cross-legged to meditate.
+He took a deep breath, then sat down cross-legged to meditate.`
+},
+{
 
-Chapter 87: I Shall Reach the Peak of the Thirteenth Level of Qi Condensation!
+title: `Chapter 87: I Shall Reach the Peak of the Thirteenth Level of Qi Condensation!`,
 
-Meng Hao. Patriarch Reliance ground his teeth. He felt quite grieved, and was even more regretful. If he had known things would turn out this way, he would have said some nicer things to Meng Hao.
+content: `Meng Hao. Patriarch Reliance ground his teeth. He felt quite grieved, and was even more regretful. If he had known things would turn out this way, he would have said some nicer things to Meng Hao.
 
 How could he have imagined that Meng Hao would be so cruel? Forget his cruelty, he had a bag of the Cosmos! Forget his bag of the Cosmos, he had entered into the tenth level of Qi Condensation!
 
@@ -8898,11 +9038,13 @@ This is his Dao Patriarch Reliance took a deep breath, finally understanding.
 
 -----
 
-This chapter was sponsored by Patrick Nguyen, Nur Arif, Sai Pakalapati, Subtle Inc., and Hein Haugeberg
+This chapter was sponsored by Patrick Nguyen, Nur Arif, Sai Pakalapati, Subtle Inc., and Hein Haugeberg`
+},
+{
 
-Chapter 88: Lord Revelation's True Self
+title: `Chapter 88: Lord Revelation's True Self`,
 
-Boom!
+content: `Boom!
 
 The two wooden swords stabbed simultaneously through Meng Hao's body, sending showers of blood flying out. The flame of Meng Hao's life force was growing dimmer. However, the gravitational force within him had grown to an unprecedented height. It was so strong that it seemed as if it might be able to suck in everything around him. It was as if regardless of whatever obstacle faced him, regardless of whatever danger he was in, nothing could block his path to becoming a powerful expert.
 
@@ -9010,11 +9152,13 @@ An ice-cold piece of blue jade flew into his hand.
 
 Similar scenes played out in the Winding Stream Sect and the Upright Evening Sect. When the life slips belonging to their Priests and Elders crumbled, they all used their Sects' Dao Reserves.
 
-As of this moment, the Cultivation world of the State of Zhao had been thrown into an uproar.
+As of this moment, the Cultivation world of the State of Zhao had been thrown into an uproar.`
+},
+{
 
-Chapter 89: Guyiding Tri-Rain [1. In the original release of this chapter, Er Gen challenged the audience to figure out the meaning of Guyiding Tri-rain's name. There was much debate about it. Here is the breakdown of her name:
+title: `Chapter 89: Guyiding Tri-Rain [1. In the original release of this chapter, Er Gen challenged the audience to figure out the meaning of Guyiding Tri-rain's name. There was much debate about it. Here is the breakdown of her name:`,
 
-Chinese characters: ?????
+content: `Chinese characters: ?????
 
 Transliteration: Gu Yi Ding San Yu
 
@@ -9138,11 +9282,13 @@ I of the junior generation am not here to cross the lake, Meng Hao said lightly,
 
 -----
 
-This chapter sponsored by Hein Haugeberg
+This chapter sponsored by Hein Haugeberg`
+},
+{
 
-Chapter 90: The Great Path of Demon Sealing, a Concept Like a Scripture
+title: `Chapter 90: The Great Path of Demon Sealing, a Concept Like a Scripture`,
 
-The old man put down the oar and looked back at Meng Hao. Laughing, he walked over, poured himself some alcohol, and then took a drink.
+content: `The old man put down the oar and looked back at Meng Hao. Laughing, he walked over, poured himself some alcohol, and then took a drink.
 
 Clear up what confusion?
 
@@ -9260,11 +9406,13 @@ Meng Hao's expression was the same as ever, but inside he sighed. Because of the
 
 The old Meng Hao would never have made a move against the fleeing people. But today was different. Meng Hao's eyes flashed. Ten flying swords flew out, infused with the power of the great circle of Qi Condensation. The quality of the swords was poor, and incapable of containing such power, so they exploded, transforming into countless fragments, which continued to fly forward.
 
-Blood-curdling screams rang out one after another. Each and every one of the fleeing Winding Stream Sect disciples dropped dead.
+Blood-curdling screams rang out one after another. Each and every one of the fleeing Winding Stream Sect disciples dropped dead.`
+},
+{
 
-Chapter 91: What Goes Around Comes Around
+title: `Chapter 91: What Goes Around Comes Around`,
 
-Fire Globe after Fire Globe descended onto the corpses. The reek of blood still filled the air, but it was soon overpowered by the stench of scorched flesh. The disgusting odor emanated out in all directions.
+content: `Fire Globe after Fire Globe descended onto the corpses. The reek of blood still filled the air, but it was soon overpowered by the stench of scorched flesh. The disgusting odor emanated out in all directions.
 
 Meng Hao collected the bags of holding. He sniffed the air, then with one last silent look at the North Sea, turned and left.
 
@@ -9370,11 +9518,13 @@ Meng Hao said nothing. He simply looked up into the sky.
 
 -----
 
-This chapter was sponsored by Robert Moran
+This chapter was sponsored by Robert Moran`
+},
+{
 
-Chapter 92: Exterminate Foundation Establishment!
+title: `Chapter 92: Exterminate Foundation Establishment!`,
 
-In front of Meng Hao was the old Foundation Establishment Cultivator from the Upright Evening Sect. Behind him was the enraged Foundation Establishment Cultivator from the Cold Wind Sect. As of this moment, Foundation Establishment Cultivators from two of the three great Sects of the State of Zhao had appeared.
+content: `In front of Meng Hao was the old Foundation Establishment Cultivator from the Upright Evening Sect. Behind him was the enraged Foundation Establishment Cultivator from the Cold Wind Sect. As of this moment, Foundation Establishment Cultivators from two of the three great Sects of the State of Zhao had appeared.
 
 In his heart, Meng Hao knew that he was stuck between a rock and a hard place. It would be difficult to escape. Theoretically, he could lead them into Patriarch Reliance's secluded meditation zone, but to do that would require the cooperation of Patriarch Reliance himself.
 
@@ -9494,11 +9644,13 @@ The face of the Cold Wind Sect's Foundation Establishment Cultivator twisted, an
 
 His robes whipped about in the wind. Behind him, the clouds spun violently. The pupil of his left eye looked like the sun, and shone with brilliant light. The right eye was dark, and its pupil looked like a crescent moon. On his forehead was a strange looking slit, within which appeared to be another eye. This eye itself was invisible, but emitted a bloody glow.
 
-It was Lord Revelation!
+It was Lord Revelation!`
+},
+{
 
-Chapter 93: Sever the Dao, Change Heaven and Earth, Demonic Will!
+title: `Chapter 93: Sever the Dao, Change Heaven and Earth, Demonic Will!`,
 
-The instant he saw Lord Revelation, Meng Hao's body grew stiff. In his hands, the Nascent Soul of Lord Revelation's clone burned in the demonic lamp.
+content: `The instant he saw Lord Revelation, Meng Hao's body grew stiff. In his hands, the Nascent Soul of Lord Revelation's clone burned in the demonic lamp.
 
 Lord Revelation's shout shook the earth for millions of kilometers in all directions. Mountains trembled and the sky filled with dark, roiling clouds.
 
@@ -9598,11 +9750,13 @@ This person was not Patriarch Reliance!
 
 -----
 
-This chapter was sponsored by Joseph Halbouty
+This chapter was sponsored by Joseph Halbouty`
+},
+{
 
-Chapter 94: You Really Want Me To Come Out?
+title: `Chapter 94: You Really Want Me To Come Out?`,
 
-An incredible roaring boom sounded out from the massive hand as the glowing red beam sliced through it. Starting in the space between the middle and ring finger of the hand, a massive gash appeared, cutting it completely in half.
+content: `An incredible roaring boom sounded out from the massive hand as the glowing red beam sliced through it. Starting in the space between the middle and ring finger of the hand, a massive gash appeared, cutting it completely in half.
 
 One slash, and the hand was severed.
 
@@ -9698,11 +9852,13 @@ Earth covered the turtle's massive shell, as if the shell were being held in pla
 
 A colossal head slowly emerged from the turtle's shell. The head was roughly one tenth the size of the entire State of Zhao. Its skin was black, and covered with creases. Earth crumbled off from the head as it raised up. Its massive eyes turned to look down on Lord Revelation who stood there panting, as tiny as an insect, his face pale, his body quivering, a look of disbelief on his face.
 
-You called me out. Shall we fight?
+You called me out. Shall we fight?`
+},
+{
 
-Chapter 95: A Rain Shower, a Cold Spell
+title: `Chapter 95: A Rain Shower, a Cold Spell`,
 
-Meng Hao stared dumbly, his mind reeling. All the fantastic and bizarre things he had seen in his life couldn't compare to the shocking sight in front of him. His mind was blank, as if he had lost his ability to even think. He could only stand there and look numbly.
+content: `Meng Hao stared dumbly, his mind reeling. All the fantastic and bizarre things he had seen in his life couldn't compare to the shocking sight in front of him. His mind was blank, as if he had lost his ability to even think. He could only stand there and look numbly.
 
 Patriarch Reliance was actually a mind-bogglingly enormous black turtle!
 
@@ -9843,4 +9999,6 @@ This chapter was sponsored by Deathblade
 -----
 
 This is the end of Book 1`
+}
+]
 }
