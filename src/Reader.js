@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { book } from './Book.js';
 import moment from 'moment';
 
-const chapter = 1211;
+const chapter = 97;
 const speed = 180;
 
 const words = book.chapter[chapter - 1].content.split(/\s/);
