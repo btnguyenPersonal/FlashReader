@@ -3,7 +3,7 @@ import { book } from './Book.js';
 import moment from 'moment';
 
 const chapter = 52;
-const speed = 200;
+const speed = 300;
 
 function Reader() {
   const [currentChapter, setCurrentChapter] = useState(chapter);
@@ -20,6 +20,8 @@ function Reader() {
         ? words[Math.floor((time - initialTime) / speed)] 
         : <button onClick={() => {setCurrentChapter(currentChapter + 1);setInitialTime(moment())}}>Next Chapter</button>}
       </p>
+      <button onClick={() => { setCurrentChapter(currentChapter - 1); setInitialTime(moment()) }}>Chapter {currentChapter - 2}</button>
+      <button onClick={() => { setCurrentChapter(currentChapter + 1); setInitialTime(moment()) }}>Chapter {currentChapter}</button>
     </>
   );
   useEffect(() => {
