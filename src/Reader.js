@@ -21,7 +21,7 @@ function Reader() {
   const [lastTime, setLastTime] = useState(moment());
   let content = (
       <div className="columns">
-        <button className="button" onClick={() => { setCurrentChapter(currentChapter - 1); setLastTime(moment()) }}>{'<'}</button>
+        <button className="button" onClick={() => { setCurrentChapter(currentChapter - 1); setLastTime(moment()); index = 0 }}>{'<'}</button>
         <div class="panel panel-default">
           <div class="panel-heading">
             { book.chapter[currentChapter - 1].title }
@@ -40,7 +40,7 @@ function Reader() {
             <div className="speedIndicator">{counter}</div>
           </div>
         </div>
-        <button className="button" onClick={() => { setCurrentChapter(currentChapter + 1); setLastTime(moment()) }}>{'>'}</button>
+        <button className="button" onClick={() => { setCurrentChapter(currentChapter + 1); setLastTime(moment()); index = 0 }}>{'>'}</button>
       </div>
   );
   useEffect(() => {
