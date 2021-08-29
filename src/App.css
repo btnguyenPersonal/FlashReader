@@ -17,6 +17,17 @@
   border: 2px solid white;
 }
 
+.mediaButton {
+  font-size: 35px;
+  color: white;
+  background-color: #282C34;
+  border: 2px solid white;
+}
+
+.speedIndicator {
+  font-size: 35px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
