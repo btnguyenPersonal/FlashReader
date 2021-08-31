@@ -7,7 +7,6 @@ let chapter = 70;
 let speed = 200;
 let index = 0;
 let counter = 0;
-let i = 0;
 
 function incrementIndex() {
   index++;
@@ -17,26 +16,20 @@ function incrementIndex() {
 function Reader() {
 
   function faster() {
-    if (counter < 20) {
-      counter++;
-      speed /= 1.1;
-      speed = Math.floor(speed + 0.5);
-    }
+    counter++;
+    speed *= 1.1;
   }
   function slower() {
-    if (counter > -20) {
-      counter--;
-      speed *= 1.1;
-      speed = Math.floor(speed + 0.5);
-    }
+    counter--;
+    speed /= 1.1;
   }
   function fasterPlus() {
-    for (i = 0; i < 10; i++) {
+    for (int i = 0; i < 10; i++) {
       faster();
     }
   }
-  function slowerPlus() {
-    for (i = 0; i < 10; i++) {
+  function fasterPlus() {
+    for (int i = 0; i < 10; i++) {
       slower();
     }
   }
@@ -48,7 +41,7 @@ function Reader() {
   const [currentChapter, setCurrentChapter] = useState(chapter);
   let words = book.chapter[currentChapter - 1].content.split(/\s/);
   const [time, setTime] = useState(moment());
-  const [isPaused, setIsPaused] = useState(false);
+  const [isPaused, setIsPaused] = useState(true);
   const [lastTime, setLastTime] = useState(moment());
   let content = (
       <div className="columns">
@@ -65,14 +58,13 @@ function Reader() {
                 : words[index]
               }
             </h2>
-            <button className="mediaButton" onClick={() => { slowerPlus() }}>SLOWER</button>
-            <button className="mediaButton" onClick={() => { slower() }}>slower</button>
+            <button className="mediaButton" onClick={() => { speed *= 2.537; counter-- }}>SLOWER</button>
+            <button className="mediaButton" onClick={() => { speed *= 1.1; counter-- }}>slower</button>
             <button className="mediaButton" onClick={() => { isPaused ? setIsPaused(false) : setIsPaused(true) }}>{ isPaused ? '>' : '||' }</button>
-            <button className="mediaButton" onClick={() => { faster() }}>faster</button>
-            <button className="mediaButton" onClick={() => { fasterPlus() }}>FASTER</button>
-            <div className="speedIndicator">{counter < 20 ? counter : 'MAX'}</div>
+            <button className="mediaButton" onClick={() => { speed /= 1.1; counter++ }}>faster</button>
+            <button className="mediaButton" onClick={() => { speed /= 2.537; counter++ }}>FASTER</button>
+            <div className="speedIndicator">{counter}</div>
             <div className="speedIndicator">{Math.floor(100 * index/words.length) + '%'}</div>
-            <div className="speedIndicator">{speed}</div>
           </div>
         </div>
         <button className="button" onClick={() => { setChapter(currentChapter + 1) }}>{'>'}</button>
