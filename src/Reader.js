@@ -3,7 +3,7 @@ import { book } from './Book.js';
 import moment from 'moment';
 import './App.css';
 
-let chapter = 1;
+let chapter = 70;
 let speed = 200;
 let index = 0;
 let counter = 0;
@@ -14,6 +14,12 @@ function incrementIndex() {
 }
 
 function Reader() {
+
+  function setChapter(c) {
+    index = 0;
+    setCurrentChapter(c);
+    setLastTime(moment());
+  }
   const [currentChapter, setCurrentChapter] = useState(chapter);
   let words = book.chapter[currentChapter - 1].content.split(/\s/);
   const [time, setTime] = useState(moment());
@@ -21,7 +27,7 @@ function Reader() {
   const [lastTime, setLastTime] = useState(moment());
   let content = (
       <div className="columns">
-        <button className="button" onClick={() => { setCurrentChapter(currentChapter - 1); setLastTime(moment()); index = 0 }}>{'<'}</button>
+        <button className="button" onClick={() => { setChapter(currentChapter - 1) }}>{'<'}</button>
         <div class="panel panel-default">
           <div class="panel-heading">
             { book.chapter[currentChapter - 1].title }
@@ -30,7 +36,7 @@ function Reader() {
             <h2>
               { 
                 1 < Math.floor((time - lastTime) / speed) && !isPaused
-                ? incrementIndex() && words[index] && setLastTime(moment())
+                ? index <= words.length + 1 ? incrementIndex() && words[index] && setLastTime(moment()) : setChapter(currentChapter + 1)
                 : words[index]
               }
             </h2>
@@ -38,13 +44,14 @@ function Reader() {
             <button className="mediaButton" onClick={() => { isPaused ? setIsPaused(false) : setIsPaused(true) }}>{ isPaused ? '>' : '||' }</button>
             <button className="mediaButton" onClick={() => { speed /= 1.1; counter++ }}>faster</button>
             <div className="speedIndicator">{counter}</div>
+            <div className="speedIndicator">{Math.floor(100 * index/words.length) + '%'}</div>
           </div>
         </div>
-        <button className="button" onClick={() => { setCurrentChapter(currentChapter + 1); setLastTime(moment()); index = 0 }}>{'>'}</button>
+        <button className="button" onClick={() => { setChapter(currentChapter + 1) }}>{'>'}</button>
       </div>
   );
   useEffect(() => {
-      setInterval(() => setTime(moment()), 1);
+      const interval = setInterval(() => setTime(moment()), 1);
   }, []);
 
   return content;
