@@ -1,27 +1,85 @@
 import React, { useState, useEffect } from 'react';
 import { book } from './Book.js';
 import moment from 'moment';
+import './App.css';
 
-const chapter = 97;
-const speed = 180;
+let chapter = 70;
+let speed = 200;
+let index = 0;
+let counter = 0;
+let i = 0;
 
-const words = book.chapter[chapter - 1].content.split(/\s/);
+function incrementIndex() {
+  index++;
+  return true;
+}
 
 function Reader() {
+
+  function faster() {
+    if (counter < 20) {
+      counter++;
+      speed /= 1.1;
+      speed = Math.floor(speed + 0.5);
+    }
+  }
+  function slower() {
+    if (counter > -20) {
+      counter--;
+      speed *= 1.1;
+      speed = Math.floor(speed + 0.5);
+    }
+  }
+  function fasterPlus() {
+    for (i = 0; i < 10; i++) {
+      faster();
+    }
+  }
+  function slowerPlus() {
+    for (i = 0; i < 10; i++) {
+      slower();
+    }
+  }
+  function setChapter(c) {
+    index = 0;
+    setCurrentChapter(c);
+    setLastTime(moment());
+  }
+  const [currentChapter, setCurrentChapter] = useState(chapter);
+  let words = book.chapter[currentChapter - 1].content.split(/\s/);
   const [time, setTime] = useState(moment());
-  const [initialTime, setInitialTime] = useState(moment());
+  const [isPaused, setIsPaused] = useState(false);
+  const [lastTime, setLastTime] = useState(moment());
   let content = (
-    <>
-      <h5>
-        { book.chapter[chapter - 1].title }
-      </h5>
-      <p>
-        { words[Math.floor((time - initialTime) / speed)] }
-      </p>
-    </>
+      <div className="columns">
+        <button className="button" onClick={() => { setChapter(currentChapter - 1) }}>{'<'}</button>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            { book.chapter[currentChapter - 1].title }
+          </div>
+          <div class="panel-body">
+            <h2>
+              { 
+                1 < Math.floor((time - lastTime) / speed) && !isPaused
+                ? index <= words.length + 1 ? incrementIndex() && words[index] && setLastTime(moment()) : setChapter(currentChapter + 1)
+                : words[index]
+              }
+            </h2>
+            <button className="mediaButton" onClick={() => { slowerPlus() }}>SLOWER</button>
+            <button className="mediaButton" onClick={() => { slower() }}>slower</button>
+            <button className="mediaButton" onClick={() => { isPaused ? setIsPaused(false) : setIsPaused(true) }}>{ isPaused ? '>' : '||' }</button>
+            <button className="mediaButton" onClick={() => { faster() }}>faster</button>
+            <button className="mediaButton" onClick={() => { fasterPlus() }}>FASTER</button>
+            <div className="speedIndicator">{counter < 20 ? counter : 'MAX'}</div>
+            <div className="speedIndicator">{Math.floor(100 * index/words.length) + '%'}</div>
+            <div className="speedIndicator">{speed}</div>
+          </div>
+        </div>
+        <button className="button" onClick={() => { setChapter(currentChapter + 1) }}>{'>'}</button>
+      </div>
   );
   useEffect(() => {
-      const interval = setInterval(() => setTime(moment()), 5);
+      const interval = setInterval(() => setTime(moment()), 1);
   }, []);
 
   return content;
