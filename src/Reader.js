@@ -3,11 +3,12 @@ import { book } from './Book.js';
 import moment from 'moment';
 import './App.css';
 
-let chapter = 70;
+let chapter = 65;
 let speed = 200;
 let index = 0;
 let counter = 0;
 let i = 0;
+const skip_length = 30;
 
 function incrementIndex() {
   index++;
@@ -65,13 +66,13 @@ function Reader() {
                 : words[index]
               }
             </h2>
-            <button className="mediaButton" onClick={() => { index > 10 ? index -= 10 : index = 0 }}>{'<<'}</button>
+            <button className="mediaButton" onClick={() => { index > skip_length ? index -= skip_length : index = 0 }}>{'<<'}</button>
             <button className="mediaButton" onClick={() => { slowerPlus() }}>SLOWER</button>
             <button className="mediaButton" onClick={() => { slower() }}>slower</button>
             <button className="mediaButton" onClick={() => { isPaused ? setIsPaused(false) : setIsPaused(true) }}>{ isPaused ? '>' : '||' }</button>
             <button className="mediaButton" onClick={() => { faster() }}>faster</button>
             <button className="mediaButton" onClick={() => { fasterPlus() }}>FASTER</button>
-            <button className="mediaButton" onClick={() => { index += 10 }}>{'>>'}</button>
+            <button className="mediaButton" onClick={() => { index += skip_length }}>{'>>'}</button>
             <div className="speedIndicator">{counter < 20 ? counter : 'MAX'}</div>
             <div className="speedIndicator">{Math.floor(100 * index/words.length) + '%'}</div>
           </div>
