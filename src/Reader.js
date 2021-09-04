@@ -3,7 +3,7 @@ import { book } from './Book.js';
 import moment from 'moment';
 import './App.css';
 
-let chapter = 65;
+let chapter = parseInt(localStorage.getItem('bookmark'));
 let speed = 200;
 let index = 0;
 let counter = 0;
@@ -43,6 +43,7 @@ function Reader() {
   }
   function setChapter(c) {
     index = 0;
+    localStorage.setItem('bookmark', JSON.stringify(c));
     setCurrentChapter(c);
     setLastTime(moment());
   }
@@ -75,6 +76,7 @@ function Reader() {
             <button className="mediaButton" onClick={() => { index += skip_length }}>{'>>'}</button>
             <div className="speedIndicator">{counter < 20 ? counter : 'MAX'}</div>
             <div className="speedIndicator">{Math.floor(100 * index/words.length) + '%'}</div>
+            <div className="speedIndicator">{currentChapter}</div>
           </div>
         </div>
         <button className="button" onClick={() => { setChapter(currentChapter + 1) }}>{'>'}</button>
