@@ -73,7 +73,6 @@ function Reader() {
             <button className="mediaButton" onClick={() => { skipAhead() }}>{'>>'}</button>
             <div className="speedIndicator">{counter < 20 ? counter : 'MAX'}</div>
             <div className="speedIndicator">{Math.floor(100 * index/words.length) + '%'}</div>
-            <div className="speedIndicator">{currentChapter}</div>
           </div>
         </div>
         <button className="button" onClick={() => { setChapter(currentChapter + 1) }}>{'>'}</button>
