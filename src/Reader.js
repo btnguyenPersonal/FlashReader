@@ -2,8 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { book } from './Book.js';
 import moment from 'moment';
 import './App.css';
+import mousetrap from 'mousetrap';
 
-let chapter = 70;
+let chapter =
+  parseInt(localStorage.getItem('bookmark')) > 0
+  && parseInt(localStorage.getItem('bookmark')) < 1600
+    ? parseInt(localStorage.getItem('bookmark'))
+    :1
 let speed = 200;
 let index = 0;
 let counter = 0;
@@ -15,6 +20,21 @@ function incrementIndex() {
 }
 
 function Reader() {
+  mousetrap.bind('k', function() {isPaused ? setIsPaused(false) : setIsPaused(true)});
+  mousetrap.bind('K', function() {isPaused ? setIsPaused(false) : setIsPaused(true)});
+  mousetrap.bind('space', function() {isPaused ? setIsPaused(false) : setIsPaused(true); return false});
+  mousetrap.bind('l', function() {skipAhead()});
+  mousetrap.bind('L', function() {skipAhead()});
+  mousetrap.bind('j', function() {skipBack()});
+  mousetrap.bind('L', function() {skipBack()});
+  mousetrap.bind('-', function() {slower()});
+  mousetrap.bind('_', function() {slower()});
+  mousetrap.bind('=', function() {faster()});
+  mousetrap.bind('+', function() {faster()});
+  mousetrap.bind('{', function() {setCurrentChapter(currentChapter - 1)});
+  mousetrap.bind('[', function() {setCurrentChapter(currentChapter - 1)});
+  mousetrap.bind('}', function() {setCurrentChapter(currentChapter + 1)});
+  mousetrap.bind(']', function() {setCurrentChapter(currentChapter + 1)});
 
   function faster() {
     if (counter < 20) {
@@ -30,18 +50,15 @@ function Reader() {
       speed = Math.floor(speed + 0.5);
     }
   }
-  function fasterPlus() {
-    for (i = 0; i < 10; i++) {
-      faster();
-    }
+  function skipAhead() {
+    index += 50;
   }
-  function slowerPlus() {
-    for (i = 0; i < 10; i++) {
-      slower();
-    }
+  function skipBack() {
+    index < 50 ? index = 0 : index -= 50;
   }
   function setChapter(c) {
     index = 0;
+    localStorage.setItem('bookmark', JSON.stringify(c));
     setCurrentChapter(c);
     setLastTime(moment());
   }
@@ -65,11 +82,11 @@ function Reader() {
                 : words[index]
               }
             </h2>
-            <button className="mediaButton" onClick={() => { slowerPlus() }}>SLOWER</button>
+            <button className="mediaButton" onClick={() => { skipBack() }}>{'<<'}</button>
             <button className="mediaButton" onClick={() => { slower() }}>slower</button>
             <button className="mediaButton" onClick={() => { isPaused ? setIsPaused(false) : setIsPaused(true) }}>{ isPaused ? '>' : '||' }</button>
             <button className="mediaButton" onClick={() => { faster() }}>faster</button>
-            <button className="mediaButton" onClick={() => { fasterPlus() }}>FASTER</button>
+            <button className="mediaButton" onClick={() => { skipAhead() }}>{'>>'}</button>
             <div className="speedIndicator">{counter < 20 ? counter : 'MAX'}</div>
             <div className="speedIndicator">{Math.floor(100 * index/words.length) + '%'}</div>
           </div>
