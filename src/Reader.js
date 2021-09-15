@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { book } from './Book.js';
 import moment from 'moment';
 import './App.css';
+import mousetrap from 'mousetrap';
 
 let chapter =
   parseInt(localStorage.getItem('bookmark')) > 0
@@ -19,6 +20,21 @@ function incrementIndex() {
 }
 
 function Reader() {
+  mousetrap.bind('k', function() {isPaused ? setIsPaused(false) : setIsPaused(true)});
+  mousetrap.bind('K', function() {isPaused ? setIsPaused(false) : setIsPaused(true)});
+  mousetrap.bind('space', function() {isPaused ? setIsPaused(false) : setIsPaused(true); return false});
+  mousetrap.bind('l', function() {skipAhead()});
+  mousetrap.bind('L', function() {skipAhead()});
+  mousetrap.bind('j', function() {skipBack()});
+  mousetrap.bind('L', function() {skipBack()});
+  mousetrap.bind('-', function() {slower()});
+  mousetrap.bind('_', function() {slower()});
+  mousetrap.bind('=', function() {faster()});
+  mousetrap.bind('+', function() {faster()});
+  mousetrap.bind('{', function() {setCurrentChapter(currentChapter - 1)});
+  mousetrap.bind('[', function() {setCurrentChapter(currentChapter - 1)});
+  mousetrap.bind('}', function() {setCurrentChapter(currentChapter + 1)});
+  mousetrap.bind(']', function() {setCurrentChapter(currentChapter + 1)});
 
   function faster() {
     if (counter < 20) {
