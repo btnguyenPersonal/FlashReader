@@ -110,9 +110,9 @@ function Reader() {
             <button className="mediaButton" onClick={() => { pause() }}>{ isPaused ? '>' : '||' }</button>
             <button className="mediaButton" onClick={() => { faster() }}>faster</button>
             <button className="mediaButton" onClick={() => { skipAhead() }}>{'>>'}</button>
-            <div className="valueIndicator">{counter < 20 ? counter : 'MAX'}</div>
-            <div className="valueIndicator">{Math.floor(100 * index/words.length) + '%'}</div>
-            <div className="valueIndicator">{getWPM()} WPM</div>
+            <div className="valueIndicator">Progress: {Math.floor(100 * index/words.length)}%</div>
+            <div className="valueIndicator">Speed: {getWPM()} WPM</div>
+            <div className="valueIndicator">Level: {counter < 20 ? counter : 'MAX'}</div>
           </div>
         </div>
         <button className="button" onClick={() => { setChapter(currentChapter + 1) }}>{'>'}</button>
