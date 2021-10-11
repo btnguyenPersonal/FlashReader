@@ -20,6 +20,7 @@ function incrementIndex() {
 }
 
 function Reader() {
+  //keybindings
   mousetrap.bind('k', function() {pause()});
   mousetrap.bind('space', function() {pause(); return false});
   mousetrap.bind('l', function() {skipAhead()});
@@ -40,6 +41,7 @@ function Reader() {
       setIsPaused(true);
     }
   }
+
   function faster() {
     if (counter < 20) {
       counter++;
@@ -47,6 +49,7 @@ function Reader() {
       speed = Math.floor(speed + 0.5);
     }
   }
+
   function slower() {
     if (counter > -20) {
       counter--;
@@ -54,18 +57,22 @@ function Reader() {
       speed = Math.floor(speed + 0.5);
     }
   }
+
   function skipAhead() {
     index += 50;
   }
+
   function skipBack() {
     index < 50 ? index = 0 : index -= 50;
   }
+
   function setChapter(c) {
     index = 0;
     localStorage.setItem('bookmark', JSON.stringify(c));
     setCurrentChapter(c);
     setLastTime(moment());
   }
+
   function getWord(time, lastIndex, isPaused) {
     if ((1 < Math.floor((time - lastTime) / speed)) && !isPaused) {
       if ( index < words.length - 2 ) {
@@ -77,6 +84,11 @@ function Reader() {
     }
     return words[index]
   }
+
+  function getWPM() {
+    return Math.floor(60 * (1000 / speed));
+  }
+
   const [currentChapter, setCurrentChapter] = useState(chapter);
   let words = book.chapter[currentChapter - 1].content.split(/\s/);
   const [time, setTime] = useState(moment());
@@ -85,24 +97,22 @@ function Reader() {
   let content = (
       <div className="columns">
         <button className="button" onClick={() => { setChapter(currentChapter - 1) }}>{'<'}</button>
-        <div class="panel panel-default">
-          <div class="panel-heading">
+        <div className="panel panel-default">
+          <div className="panel-heading">
             { book.chapter[currentChapter - 1].title }
           </div>
-          <div class="panel-body">
+          <div className="panel-body">
             <h2>
               { getWord(time, lastTime, isPaused) }
             </h2>
-            <p4>
-              { index }
-            </p4>
             <button className="mediaButton" onClick={() => { skipBack() }}>{'<<'}</button>
             <button className="mediaButton" onClick={() => { slower() }}>slower</button>
             <button className="mediaButton" onClick={() => { pause() }}>{ isPaused ? '>' : '||' }</button>
             <button className="mediaButton" onClick={() => { faster() }}>faster</button>
             <button className="mediaButton" onClick={() => { skipAhead() }}>{'>>'}</button>
-            <div className="speedIndicator">{counter < 20 ? counter : 'MAX'}</div>
-            <div className="speedIndicator">{Math.floor(100 * index/words.length) + '%'}</div>
+            <div className="valueIndicator">{counter < 20 ? counter : 'MAX'}</div>
+            <div className="valueIndicator">{Math.floor(100 * index/words.length) + '%'}</div>
+            <div className="valueIndicator">{getWPM()} WPM</div>
           </div>
         </div>
         <button className="button" onClick={() => { setChapter(currentChapter + 1) }}>{'>'}</button>
