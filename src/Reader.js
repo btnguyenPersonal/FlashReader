@@ -4,15 +4,17 @@ import moment from 'moment';
 import './App.css';
 import mousetrap from 'mousetrap';
 
-let chapter =
-  parseInt(localStorage.getItem('bookmark')) > 0
-  && parseInt(localStorage.getItem('bookmark')) < 1600
-    ? parseInt(localStorage.getItem('bookmark'))
-    :1
+let chapter = getInitalBookmark();
 let speed = 200;
 let index = 0;
 let counter = 0;
-let i = 0;
+
+function getInitalBookmark() {
+  const bookmark = parseInt(localStorage.getItem('bookmark'));
+  return bookmark > 0 && bookmark < book.chapter.length
+    ? bookmark
+    : 1
+}
 
 function incrementIndex() {
   index++;
@@ -119,6 +121,7 @@ function Reader() {
       </div>
   );
   useEffect(() => {
+      // eslint-disable-next-line
       const interval = setInterval(() => setTime(moment()), 1);
   }, []);
 
