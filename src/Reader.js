@@ -19,7 +19,7 @@ function incrementIndex() {
   return true;
 }
 
-function Reader() {
+export default function Reader() {
   //keybindings
   mousetrap.bind("k", function () {
     pause();
@@ -113,14 +113,16 @@ function Reader() {
   }
 
   function getWPM() {
-    return Math.floor(60 * (1000 / speed));
+    return Math.floor(60 * (500 / speed));
   }
 
   const [currentChapter, setCurrentChapter] = useState(chapter);
-  let words = book.chapter[currentChapter - 1].content.split(/\s/);
   const [time, setTime] = useState(moment());
   const [isPaused, setIsPaused] = useState(false);
   const [lastTime, setLastTime] = useState(moment());
+
+  let words = book.chapter[currentChapter - 1].content.split(/\s/);
+
   let content = (
     <div className="columns">
       <button
@@ -196,12 +198,11 @@ function Reader() {
       </button>
     </div>
   );
+
   useEffect(() => {
     // eslint-disable-next-line
-    const interval = setInterval(() => setTime(moment()), 1);
+    const interval = setInterval(() => setTime(moment()), 1000 / 60);
   }, []);
 
   return content;
 }
-
-export default Reader;
