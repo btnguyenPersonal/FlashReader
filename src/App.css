@@ -4,9 +4,8 @@
 
 .columns {
   width: 100%;
-  height: 1%;
+  height: 100%;
   display: grid;
-  grid-template-columns: 1fr 30fr 1fr;
 }
 
 .button {
@@ -19,9 +18,20 @@
 
 .mediaButton {
   font-size: 35px;
+  width: 7%;
   color: white;
   background-color: #282C34;
   border: 2px solid white;
+  border-radius: 4px;
+}
+
+.pauseButton {
+  font-size: 35px;
+  width: 15%;
+  color: white;
+  background-color: #282C34;
+  border: 2px solid white;
+  border-radius: 4px;
 }
 
 .valueIndicator {

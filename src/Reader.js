@@ -14,6 +14,11 @@ function getInitalBookmark() {
   return bookmark > 0 && bookmark < book.chapter.length ? bookmark : 1;
 }
 
+function getInitalSpeed() {
+  const speed = parseInt(localStorage.getItem("speed"));
+  return speed;
+}
+
 function incrementIndex() {
   index++;
   return true;
@@ -21,6 +26,14 @@ function incrementIndex() {
 
 export default function Reader() {
   //keybindings
+  mousetrap.bind("f", function () {
+    if (document.fullscreenElement == null) {
+      var element = document.getElementById("root");
+      element.requestFullscreen();
+    } else {
+      document.exitFullscreen();
+    }
+  });
   mousetrap.bind("k", function () {
     pause();
   });
@@ -43,7 +56,7 @@ export default function Reader() {
   mousetrap.bind("s", function () {
     slower();
   });
-  mousetrap.bind("f", function () {
+  mousetrap.bind("d", function () {
     faster();
   });
   mousetrap.bind("up", function () {
@@ -125,14 +138,6 @@ export default function Reader() {
 
   let content = (
     <div className="columns">
-      <button
-        className="button"
-        onClick={() => {
-          setChapter(currentChapter - 1);
-        }}
-      >
-        {"<"}
-      </button>
       <div className="panel panel-default">
         <div className="panel-heading">
           {book.chapter[currentChapter - 1].title}
@@ -142,7 +147,7 @@ export default function Reader() {
           <button
             className="mediaButton"
             onClick={() => {
-              skipBack();
+              setChapter(currentChapter - 1);
             }}
           >
             {"<<"}
@@ -150,18 +155,26 @@ export default function Reader() {
           <button
             className="mediaButton"
             onClick={() => {
-              slower();
+              skipBack();
             }}
           >
-            slower
+            {"<"}
           </button>
           <button
             className="mediaButton"
             onClick={() => {
+              slower();
+            }}
+          >
+            -
+          </button>
+          <button
+            className="pauseButton"
+            onClick={() => {
               pause();
             }}
           >
-            {isPaused ? ">" : "||"}
+            {isPaused ? "Pause" : "Play"}
           </button>
           <button
             className="mediaButton"
@@ -169,12 +182,20 @@ export default function Reader() {
               faster();
             }}
           >
-            faster
+            +
           </button>
           <button
             className="mediaButton"
             onClick={() => {
               skipAhead();
+            }}
+          >
+            {">"}
+          </button>
+          <button
+            className="mediaButton"
+            onClick={() => {
+              setChapter(currentChapter + 1);
             }}
           >
             {">>"}
@@ -188,14 +209,6 @@ export default function Reader() {
           </div>
         </div>
       </div>
-      <button
-        className="button"
-        onClick={() => {
-          setChapter(currentChapter + 1);
-        }}
-      >
-        {">"}
-      </button>
     </div>
   );
 
