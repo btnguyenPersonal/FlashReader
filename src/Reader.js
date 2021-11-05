@@ -174,7 +174,7 @@ export default function Reader() {
               pause();
             }}
           >
-            {isPaused ? "Pause" : "Play"}
+            {isPaused ? "Play" : "Pause"}
           </button>
           <button
             className="mediaButton"
