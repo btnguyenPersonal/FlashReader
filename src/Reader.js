@@ -149,6 +149,7 @@ export default function Reader() {
             onClick={() => {
               setChapter(currentChapter - 1);
             }}
+            data-testid="btn-decrementchapter"
           >
             {"<<"}
           </button>
@@ -157,6 +158,7 @@ export default function Reader() {
             onClick={() => {
               skipBack();
             }}
+            data-testid="btn-skipBack"
           >
             {"<"}
           </button>
@@ -165,6 +167,7 @@ export default function Reader() {
             onClick={() => {
               slower();
             }}
+            data-testid="btn-slowDowm"
           >
             -
           </button>
@@ -173,6 +176,7 @@ export default function Reader() {
             onClick={() => {
               pause();
             }}
+            data-testid="btn-pauseButton"
           >
             {isPaused ? "Play" : "Pause"}
           </button>
@@ -181,6 +185,7 @@ export default function Reader() {
             onClick={() => {
               faster();
             }}
+            data-testid="btn-speedUp"
           >
             +
           </button>
@@ -189,6 +194,7 @@ export default function Reader() {
             onClick={() => {
               skipAhead();
             }}
+            data-testid="btn-skipAhead"
           >
             {">"}
           </button>
@@ -197,6 +203,7 @@ export default function Reader() {
             onClick={() => {
               setChapter(currentChapter + 1);
             }}
+            data-testid="btn-incrementchapter"
           >
             {">>"}
           </button>
