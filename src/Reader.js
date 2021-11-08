@@ -6,17 +6,12 @@ import mousetrap from "mousetrap";
 
 let chapter = getInitalBookmark();
 let speed = 200;
+let wpm = 150;
 let index = 0;
-let counter = 0;
 
 function getInitalBookmark() {
   const bookmark = parseInt(localStorage.getItem("bookmark"));
   return bookmark > 0 && bookmark < book.chapter.length ? bookmark : 1;
-}
-
-function getInitalSpeed() {
-  const speed = parseInt(localStorage.getItem("speed"));
-  return speed;
 }
 
 function incrementIndex() {
@@ -83,18 +78,14 @@ export default function Reader() {
   }
 
   function faster() {
-    if (counter < 20) {
-      counter++;
-      speed /= 1.1;
-      speed = Math.floor(speed + 0.5);
-    }
+    wpm += 10;
+    speed = WPMtoSpeed(wpm);
   }
 
   function slower() {
-    if (counter > -20) {
-      counter--;
-      speed *= 1.1;
-      speed = Math.floor(speed + 0.5);
+    if (wpm > 10) {
+      wpm -= 10;
+      speed = WPMtoSpeed(wpm);
     }
   }
 
@@ -126,7 +117,11 @@ export default function Reader() {
   }
 
   function getWPM() {
-    return Math.floor(60 * (500 / speed));
+    return wpm;
+  }
+
+  function WPMtoSpeed(wpm) {
+    return 60 * (500 / wpm);
   }
 
   const [currentChapter, setCurrentChapter] = useState(chapter);
