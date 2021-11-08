@@ -132,81 +132,79 @@ export default function Reader() {
   let words = book.chapter[currentChapter - 1].content.split(/\s/);
 
   let content = (
-    <div className="columns">
-      <div className="panel panel-default">
-        <div className="panel-heading">
-          {book.chapter[currentChapter - 1].title}
+    <div className="panel panel-default">
+      <div className="panel-heading">
+        {book.chapter[currentChapter - 1].title}
+      </div>
+      <div className="panel-body">
+        <h2>{getWord(time, lastTime, isPaused)}</h2>
+        <button
+          className="mediaButton"
+          onClick={() => {
+            setChapter(currentChapter - 1);
+          }}
+          data-testid="btn-decrementchapter"
+        >
+          {"<<"}
+        </button>
+        <button
+          className="mediaButton"
+          onClick={() => {
+            skipBack();
+          }}
+          data-testid="btn-skipBack"
+        >
+          {"<"}
+        </button>
+        <button
+          className="mediaButton"
+          onClick={() => {
+            slower();
+          }}
+          data-testid="btn-slowDowm"
+        >
+          -
+        </button>
+        <button
+          className="pauseButton"
+          onClick={() => {
+            pause();
+          }}
+          data-testid="btn-pauseButton"
+        >
+          {isPaused ? "Play" : "Pause"}
+        </button>
+        <button
+          className="mediaButton"
+          onClick={() => {
+            faster();
+          }}
+          data-testid="btn-speedUp"
+        >
+          +
+        </button>
+        <button
+          className="mediaButton"
+          onClick={() => {
+            skipAhead();
+          }}
+          data-testid="btn-skipAhead"
+        >
+          {">"}
+        </button>
+        <button
+          className="mediaButton"
+          onClick={() => {
+            setChapter(currentChapter + 1);
+          }}
+          data-testid="btn-incrementchapter"
+        >
+          {">>"}
+        </button>
+        <div className="valueIndicator">
+          Progress: {Math.floor((100 * index) / words.length)}%
         </div>
-        <div className="panel-body">
-          <h2>{getWord(time, lastTime, isPaused)}</h2>
-          <button
-            className="mediaButton"
-            onClick={() => {
-              setChapter(currentChapter - 1);
-            }}
-            data-testid="btn-decrementchapter"
-          >
-            {"<<"}
-          </button>
-          <button
-            className="mediaButton"
-            onClick={() => {
-              skipBack();
-            }}
-            data-testid="btn-skipBack"
-          >
-            {"<"}
-          </button>
-          <button
-            className="mediaButton"
-            onClick={() => {
-              slower();
-            }}
-            data-testid="btn-slowDowm"
-          >
-            -
-          </button>
-          <button
-            className="pauseButton"
-            onClick={() => {
-              pause();
-            }}
-            data-testid="btn-pauseButton"
-          >
-            {isPaused ? "Play" : "Pause"}
-          </button>
-          <button
-            className="mediaButton"
-            onClick={() => {
-              faster();
-            }}
-            data-testid="btn-speedUp"
-          >
-            +
-          </button>
-          <button
-            className="mediaButton"
-            onClick={() => {
-              skipAhead();
-            }}
-            data-testid="btn-skipAhead"
-          >
-            {">"}
-          </button>
-          <button
-            className="mediaButton"
-            onClick={() => {
-              setChapter(currentChapter + 1);
-            }}
-            data-testid="btn-incrementchapter"
-          >
-            {">>"}
-          </button>
-          <div className="valueIndicator">
-            Progress: {Math.floor((100 * index) / words.length)}%
-          </div>
-          <div className="valueIndicator">Speed: {getWPM()} WPM</div>
-        </div>
+        <div className="valueIndicator">Speed: {getWPM()} WPM</div>
       </div>
     </div>
   );
