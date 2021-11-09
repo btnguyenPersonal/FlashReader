@@ -48,6 +48,30 @@ export default function Reader() {
   mousetrap.bind("=", function () {
     faster();
   });
+  mousetrap.bind("w", function () {
+    slower();
+    slower();
+    slower();
+    slower();
+    slower();
+    slower();
+    slower();
+    slower();
+    slower();
+    slower();
+  });
+  mousetrap.bind("e", function () {
+    faster();
+    faster();
+    faster();
+    faster();
+    faster();
+    faster();
+    faster();
+    faster();
+    faster();
+    faster();
+  });
   mousetrap.bind("s", function () {
     slower();
   });
