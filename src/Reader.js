@@ -21,85 +21,32 @@ function incrementIndex() {
 
 export default function Reader() {
   //keybindings
-  mousetrap.bind("f", function () {
+  mousetrap.bind("f", function () { toggleFullscreen(); });
+  mousetrap.bind("k", function () { pause(); });
+  mousetrap.bind("space", function () { pause(); return false; });
+  mousetrap.bind("l", function () { skipAhead(); });
+  mousetrap.bind("j", function () { skipBack(); });
+  mousetrap.bind("-", function () { slower(); });
+  mousetrap.bind("=", function () { faster(); });
+  mousetrap.bind("w", function () { for (let i = 0; i< 10; i++) {slower();} });
+  mousetrap.bind("e", function () { for (let i = 0; i< 10; i++) {faster();} });
+  mousetrap.bind("s", function () { slower(); });
+  mousetrap.bind("d", function () { faster(); });
+  mousetrap.bind("up", function () { skipAhead(); return false; });
+  mousetrap.bind("down", function () { skipBack(); return false; });
+  mousetrap.bind("left", function () { setChapter(currentChapter - 1); });
+  mousetrap.bind("right", function () { setChapter(currentChapter + 1); });
+
+  function toggleFullscreen() {
     if (document.fullscreenElement == null) {
       var element = document.getElementById("root");
       element.requestFullscreen();
     } else {
       document.exitFullscreen();
     }
-  });
-  mousetrap.bind("k", function () {
-    pause();
-  });
-  mousetrap.bind("space", function () {
-    pause();
-    return false;
-  });
-  mousetrap.bind("l", function () {
-    skipAhead();
-  });
-  mousetrap.bind("j", function () {
-    skipBack();
-  });
-  mousetrap.bind("-", function () {
-    slower();
-  });
-  mousetrap.bind("=", function () {
-    faster();
-  });
-  mousetrap.bind("w", function () {
-    slower();
-    slower();
-    slower();
-    slower();
-    slower();
-    slower();
-    slower();
-    slower();
-    slower();
-    slower();
-  });
-  mousetrap.bind("e", function () {
-    faster();
-    faster();
-    faster();
-    faster();
-    faster();
-    faster();
-    faster();
-    faster();
-    faster();
-    faster();
-  });
-  mousetrap.bind("s", function () {
-    slower();
-  });
-  mousetrap.bind("d", function () {
-    faster();
-  });
-  mousetrap.bind("up", function () {
-    skipAhead();
-    return false;
-  });
-  mousetrap.bind("down", function () {
-    skipBack();
-    return false;
-  });
-  mousetrap.bind("left", function () {
-    setChapter(currentChapter - 1);
-  });
-  mousetrap.bind("right", function () {
-    setChapter(currentChapter + 1);
-  });
-
-  function pause() {
-    if (isPaused) {
-      setIsPaused(false);
-    } else {
-      setIsPaused(true);
-    }
   }
+
+  function pause() { isPaused ? setIsPaused(false) : setIsPaused(true); }
 
   function faster() {
     wpm += 10;
@@ -113,13 +60,9 @@ export default function Reader() {
     }
   }
 
-  function skipAhead() {
-    index += 50;
-  }
+  function skipAhead() { index += 50; }
 
-  function skipBack() {
-    index < 50 ? (index = 0) : (index -= 50);
-  }
+  function skipBack() { index < 50 ? (index = 0) : (index -= 50); }
 
   function setChapter(c) {
     index = 0;
@@ -140,13 +83,9 @@ export default function Reader() {
     return words[index];
   }
 
-  function getWPM() {
-    return wpm;
-  }
+  function getWPM() { return wpm; }
 
-  function WPMtoSpeed(wpm) {
-    return 60 * (500 / wpm);
-  }
+  function WPMtoSpeed(wpm) { return 60 * (500 / wpm); }
 
   const [currentChapter, setCurrentChapter] = useState(chapter);
   const [time, setTime] = useState(moment());
@@ -162,67 +101,25 @@ export default function Reader() {
       </div>
       <div className="panel-body">
         <h2 id="currentWord">{getWord(time, lastTime, isPaused)}</h2>
-        <button
-          id="btn-backChapter"
-          className="mediaButton"
-          onClick={() => {
-            setChapter(currentChapter - 1);
-          }}
-        >
+        <button id="btn-backChapter" className="mediaButton" onClick={() => { setChapter(currentChapter - 1); }} >
           {"<<"}
         </button>
-        <button
-          id="btn-skipBack"
-          className="mediaButton"
-          onClick={() => {
-            skipBack();
-          }}
-        >
+        <button id="btn-skipBack" className="mediaButton" onClick={() => { skipBack(); }} >
           {"<"}
         </button>
-        <button
-          id="btn-slower"
-          className="mediaButton"
-          onClick={() => {
-            slower();
-          }}
-        >
+        <button id="btn-slower" className="mediaButton" onClick={() => { slower(); }} >
           -
         </button>
-        <button
-          id="btn-pause"
-          className="pauseButton"
-          onClick={() => {
-            pause();
-          }}
-        >
+        <button id="btn-pause" className="pauseButton" onClick={() => { pause(); }} >
           {isPaused ? "Play" : "Pause"}
         </button>
-        <button
-          id="btn-faster"
-          className="mediaButton"
-          onClick={() => {
-            faster();
-          }}
-        >
+        <button id="btn-faster" className="mediaButton" onClick={() => { faster(); }} >
           +
         </button>
-        <button
-          id="btn-skipAhead"
-          className="mediaButton"
-          onClick={() => {
-            skipAhead();
-          }}
-        >
+        <button id="btn-skipAhead" className="mediaButton" onClick={() => { skipAhead(); }} >
           {">"}
         </button>
-        <button
-          id="btn-nextChapter"
-          className="mediaButton"
-          onClick={() => {
-            setChapter(currentChapter + 1);
-          }}
-        >
+        <button id="btn-nextChapter" className="mediaButton" onClick={() => { setChapter(currentChapter + 1); }} >
           {">>"}
         </button>
         <div id="progressIndicator" className="valueIndicator">
