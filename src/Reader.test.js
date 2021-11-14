@@ -12,9 +12,7 @@ afterEach(async () => {
 });
 
 test("all elements have rendered", async () => {
-  expect(await driver.findElement(By.id("title")).getText()).toBe(
-    "1: Scholar Meng Hao"
-  );
+  expect(await driver.findElement(By.id("title")).getText()).toBe("1: Scholar Meng Hao");
   expect(await driver.findElement(By.id("currentWord")).getText()).toBe("The");
   expect(await driver.findElement(By.id("btn-backChapter")).getText()).toBe( "<<");
   expect(await driver.findElement(By.id("btn-skipBack")).getText()).toBe("<");
@@ -37,4 +35,14 @@ test("pressing pause twice changes the text back to Pause", async () => {
   await driver.findElement(By.id("btn-pause")).click();
   await driver.findElement(By.id("btn-pause")).click();
   expect(await driver.findElement(By.id("btn-pause")).getText()).toBe("Pause");
+});
+
+test("faster button will increase the speed by 10 wpm", async () => {
+  await driver.findElement(By.id("btn-faster")).click();
+  expect(await driver.findElement(By.id("speedIndicator")).getText()).toBe("Speed: 160 WPM");
+});
+
+test("slower button will increase the speed by 10 wpm", async () => {
+  await driver.findElement(By.id("btn-slower")).click();
+  expect(await driver.findElement(By.id("speedIndicator")).getText()).toBe("Speed: 140 WPM");
 });
