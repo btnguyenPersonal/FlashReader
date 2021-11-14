@@ -157,78 +157,80 @@ export default function Reader() {
 
   let content = (
     <div className="panel panel-default">
-      <div className="panel-heading">
+      <div id="title" className="panel-heading">
         {book.chapter[currentChapter - 1].title}
       </div>
       <div className="panel-body">
-        <h2>{getWord(time, lastTime, isPaused)}</h2>
+        <h2 id="currentWord">{getWord(time, lastTime, isPaused)}</h2>
         <button
+          id="btn-backChapter"
           className="mediaButton"
           onClick={() => {
             setChapter(currentChapter - 1);
           }}
-          data-testid="btn-decrementchapter"
         >
           {"<<"}
         </button>
         <button
+          id="btn-skipBack"
           className="mediaButton"
           onClick={() => {
             skipBack();
           }}
-          data-testid="btn-skipBack"
         >
           {"<"}
         </button>
         <button
+          id="btn-slower"
           className="mediaButton"
           onClick={() => {
             slower();
           }}
-          data-testid="btn-slowDowm"
         >
           -
         </button>
         <button
+          id="btn-pause"
           className="pauseButton"
           onClick={() => {
             pause();
           }}
-          data-testid="btn-pauseButton"
         >
           {isPaused ? "Play" : "Pause"}
         </button>
         <button
+          id="btn-faster"
           className="mediaButton"
           onClick={() => {
             faster();
           }}
-          data-testid="btn-speedUp"
         >
           +
         </button>
         <button
+          id="btn-skipAhead"
           className="mediaButton"
           onClick={() => {
             skipAhead();
           }}
-          data-testid="btn-skipAhead"
         >
           {">"}
         </button>
         <button
+          id="btn-nextChapter"
           className="mediaButton"
           onClick={() => {
             setChapter(currentChapter + 1);
           }}
-          data-testid="btn-incrementchapter"
         >
           {">>"}
         </button>
-        <div className="valueIndicator">
+        <div id="progressIndicator" className="valueIndicator">
           Progress: {Math.floor((100 * index) / words.length)}%
         </div>
-        <div className="valueIndicator">Speed: {getWPM()} WPM</div>
+        <div id="speedIndicator" className="valueIndicator">
+          Speed: {getWPM()} WPM
+        </div>
       </div>
     </div>
   );
