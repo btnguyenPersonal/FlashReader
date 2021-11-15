@@ -4,7 +4,7 @@
 
 .mediaButton {
   font-size: 2rem;
-  width: 7%;
+  width: 70px;
   color: white;
   background-color: #000;
   border: 2px solid white;
@@ -14,7 +14,7 @@
 
 .pauseButton {
   font-size: 2rem;
-  width: 15%;
+  width: 130px;
   color: white;
   background-color: #000;
   border: 2px solid white;
