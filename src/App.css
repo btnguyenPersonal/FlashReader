@@ -12,6 +12,10 @@
   padding: 0.5rem 0rem;
 }
 
+.title {
+  font-size: 3rem;
+}
+
 .pauseButton {
   font-size: 2rem;
   width: 130px;
