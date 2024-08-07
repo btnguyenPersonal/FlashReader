@@ -69,7 +69,7 @@ function Reader() {
   function getWord(time, lastIndex, isPaused) {
     if ((1 < Math.floor((time - lastTime) / speed)) && !isPaused) {
       if ( index < words.length - 2 ) {
-        incrementIndex(); 
+        incrementIndex();
         setLastTime(moment());
       } else {
         setChapter(currentChapter + 1);
