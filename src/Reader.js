@@ -93,16 +93,14 @@ function Reader() {
             <h2>
               { getWord(time, lastTime, isPaused) }
             </h2>
-            <p4>
-              { index }
-            </p4>
             <button className="mediaButton" onClick={() => { skipBack() }}>{'<<'}</button>
             <button className="mediaButton" onClick={() => { slower() }}>slower</button>
             <button className="mediaButton" onClick={() => { pause() }}>{ isPaused ? '>' : '||' }</button>
             <button className="mediaButton" onClick={() => { faster() }}>faster</button>
             <button className="mediaButton" onClick={() => { skipAhead() }}>{'>>'}</button>
-            <div className="speedIndicator">{counter < 20 ? counter : 'MAX'}</div>
-            <div className="speedIndicator">{Math.floor(100 * index/words.length) + '%'}</div>
+            <div className="speedIndicator">Speed: {counter < 20 ? counter : 'MAX'}</div>
+            <div className="speedIndicator">Progress: {Math.floor(100 * index/words.length) + '%'}</div>
+            <div className="speedIndicator">Words: {index}</div>
           </div>
         </div>
         <button className="button" onClick={() => { setChapter(currentChapter + 1) }}>{'>'}</button>
